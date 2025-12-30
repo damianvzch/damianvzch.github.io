@@ -1,97 +1,1103 @@
-import{r as d,j as e}from"./index-BCi4c7TJ.js";/**
+import { r as d, j as e } from "./index-BCi4c7TJ.js";
+/**
  * @license lucide-react v0.525.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */const S=a=>a.replace(/([a-z0-9])([A-Z])/g,"$1-$2").toLowerCase(),C=a=>a.replace(/^([A-Z])|[\s-_]+(\w)/g,(t,s,o)=>o?o.toUpperCase():s.toLowerCase()),v=a=>{const t=C(a);return t.charAt(0).toUpperCase()+t.slice(1)},j=(...a)=>a.filter((t,s,o)=>!!t&&t.trim()!==""&&o.indexOf(t)===s).join(" ").trim(),M=a=>{for(const t in a)if(t.startsWith("aria-")||t==="role"||t==="title")return!0};/**
+ */ const S = (a) => a.replace(/([a-z0-9])([A-Z])/g, "$1-$2").toLowerCase(),
+  C = (a) =>
+    a.replace(/^([A-Z])|[\s-_]+(\w)/g, (t, s, o) =>
+      o ? o.toUpperCase() : s.toLowerCase()
+    ),
+  v = (a) => {
+    const t = C(a);
+    return t.charAt(0).toUpperCase() + t.slice(1);
+  },
+  j = (...a) =>
+    a
+      .filter((t, s, o) => !!t && t.trim() !== "" && o.indexOf(t) === s)
+      .join(" ")
+      .trim(),
+  M = (a) => {
+    for (const t in a)
+      if (t.startsWith("aria-") || t === "role" || t === "title") return !0;
+  };
+/**
  * @license lucide-react v0.525.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */var A={xmlns:"http://www.w3.org/2000/svg",width:24,height:24,viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:2,strokeLinecap:"round",strokeLinejoin:"round"};/**
+ */ var A = {
+  xmlns: "http://www.w3.org/2000/svg",
+  width: 24,
+  height: 24,
+  viewBox: "0 0 24 24",
+  fill: "none",
+  stroke: "currentColor",
+  strokeWidth: 2,
+  strokeLinecap: "round",
+  strokeLinejoin: "round",
+};
+/**
  * @license lucide-react v0.525.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */const P=d.forwardRef(({color:a="currentColor",size:t=24,strokeWidth:s=2,absoluteStrokeWidth:o,className:c="",children:n,iconNode:h,...r},m)=>d.createElement("svg",{ref:m,...A,width:t,height:t,stroke:a,strokeWidth:o?Number(s)*24/Number(t):s,className:j("lucide",c),...!n&&!M(r)&&{"aria-hidden":"true"},...r},[...h.map(([p,u])=>d.createElement(p,u)),...Array.isArray(n)?n:[n]]));/**
+ */ const P = d.forwardRef(
+  (
+    {
+      color: a = "currentColor",
+      size: t = 24,
+      strokeWidth: s = 2,
+      absoluteStrokeWidth: o,
+      className: c = "",
+      children: n,
+      iconNode: h,
+      ...r
+    },
+    m
+  ) =>
+    d.createElement(
+      "svg",
+      {
+        ref: m,
+        ...A,
+        width: t,
+        height: t,
+        stroke: a,
+        strokeWidth: o ? (Number(s) * 24) / Number(t) : s,
+        className: j("lucide", c),
+        ...(!n && !M(r) && { "aria-hidden": "true" }),
+        ...r,
+      },
+      [
+        ...h.map(([p, u]) => d.createElement(p, u)),
+        ...(Array.isArray(n) ? n : [n]),
+      ]
+    )
+);
+/**
  * @license lucide-react v0.525.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */const l=(a,t)=>{const s=d.forwardRef(({className:o,...c},n)=>d.createElement(P,{ref:n,iconNode:t,className:j(`lucide-${S(v(a))}`,`lucide-${a}`,o),...c}));return s.displayName=v(a),s};/**
+ */ const l = (a, t) => {
+  const s = d.forwardRef(({ className: o, ...c }, n) =>
+    d.createElement(P, {
+      ref: n,
+      iconNode: t,
+      className: j(`lucide-${S(v(a))}`, `lucide-${a}`, o),
+      ...c,
+    })
+  );
+  return (s.displayName = v(a)), s;
+};
+/**
  * @license lucide-react v0.525.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */const _=[["path",{d:"M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16",key:"jecpp"}],["rect",{width:"20",height:"14",x:"2",y:"6",rx:"2",key:"i6l2r4"}]],w=l("briefcase",_);/**
+ */ const _ = [
+    ["path", { d: "M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16", key: "jecpp" }],
+    [
+      "rect",
+      { width: "20", height: "14", x: "2", y: "6", rx: "2", key: "i6l2r4" },
+    ],
+  ],
+  w = l("briefcase", _);
+/**
  * @license lucide-react v0.525.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */const D=[["path",{d:"m7 6 5 5 5-5",key:"1lc07p"}],["path",{d:"m7 13 5 5 5-5",key:"1d48rs"}]],E=l("chevrons-down",D);/**
+ */ const D = [
+    ["path", { d: "m7 6 5 5 5-5", key: "1lc07p" }],
+    ["path", { d: "m7 13 5 5 5-5", key: "1d48rs" }],
+  ],
+  E = l("chevrons-down", D);
+/**
  * @license lucide-react v0.525.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */const L=[["path",{d:"m16 18 6-6-6-6",key:"eg8j8"}],["path",{d:"m8 6-6 6 6 6",key:"ppft3o"}]],N=l("code",L);/**
+ */ const L = [
+    ["path", { d: "m16 18 6-6-6-6", key: "eg8j8" }],
+    ["path", { d: "m8 6-6 6 6 6", key: "ppft3o" }],
+  ],
+  N = l("code", L);
+/**
  * @license lucide-react v0.525.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */const z=[["path",{d:"M12 20v2",key:"1lh1kg"}],["path",{d:"M12 2v2",key:"tus03m"}],["path",{d:"M17 20v2",key:"1rnc9c"}],["path",{d:"M17 2v2",key:"11trls"}],["path",{d:"M2 12h2",key:"1t8f8n"}],["path",{d:"M2 17h2",key:"7oei6x"}],["path",{d:"M2 7h2",key:"asdhe0"}],["path",{d:"M20 12h2",key:"1q8mjw"}],["path",{d:"M20 17h2",key:"1fpfkl"}],["path",{d:"M20 7h2",key:"1o8tra"}],["path",{d:"M7 20v2",key:"4gnj0m"}],["path",{d:"M7 2v2",key:"1i4yhu"}],["rect",{x:"4",y:"4",width:"16",height:"16",rx:"2",key:"1vbyd7"}],["rect",{x:"8",y:"8",width:"8",height:"8",rx:"1",key:"z9xiuo"}]],$=l("cpu",z);/**
+ */ const z = [
+    ["path", { d: "M12 20v2", key: "1lh1kg" }],
+    ["path", { d: "M12 2v2", key: "tus03m" }],
+    ["path", { d: "M17 20v2", key: "1rnc9c" }],
+    ["path", { d: "M17 2v2", key: "11trls" }],
+    ["path", { d: "M2 12h2", key: "1t8f8n" }],
+    ["path", { d: "M2 17h2", key: "7oei6x" }],
+    ["path", { d: "M2 7h2", key: "asdhe0" }],
+    ["path", { d: "M20 12h2", key: "1q8mjw" }],
+    ["path", { d: "M20 17h2", key: "1fpfkl" }],
+    ["path", { d: "M20 7h2", key: "1o8tra" }],
+    ["path", { d: "M7 20v2", key: "4gnj0m" }],
+    ["path", { d: "M7 2v2", key: "1i4yhu" }],
+    [
+      "rect",
+      { x: "4", y: "4", width: "16", height: "16", rx: "2", key: "1vbyd7" },
+    ],
+    [
+      "rect",
+      { x: "8", y: "8", width: "8", height: "8", rx: "1", key: "z9xiuo" },
+    ],
+  ],
+  $ = l("cpu", z);
+/**
  * @license lucide-react v0.525.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */const I=[["path",{d:"M12 15V3",key:"m9g1x1"}],["path",{d:"M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4",key:"ih7n3h"}],["path",{d:"m7 10 5 5 5-5",key:"brsn70"}]],T=l("download",I);/**
+ */ const I = [
+    ["path", { d: "M12 15V3", key: "m9g1x1" }],
+    ["path", { d: "M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4", key: "ih7n3h" }],
+    ["path", { d: "m7 10 5 5 5-5", key: "brsn70" }],
+  ],
+  T = l("download", I);
+/**
  * @license lucide-react v0.525.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */const H=[["path",{d:"M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4",key:"tonef"}],["path",{d:"M9 18c-4.51 2-5-2-7-2",key:"9comsn"}]],V=l("github",H);/**
+ */ const H = [
+    [
+      "path",
+      {
+        d: "M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4",
+        key: "tonef",
+      },
+    ],
+    ["path", { d: "M9 18c-4.51 2-5-2-7-2", key: "9comsn" }],
+  ],
+  V = l("github", H);
+/**
  * @license lucide-react v0.525.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */const q=[["path",{d:"M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z",key:"j76jl0"}],["path",{d:"M22 10v6",key:"1lu8f3"}],["path",{d:"M6 12.5V16a6 3 0 0 0 12 0v-3.5",key:"1r8lef"}]],B=l("graduation-cap",q);/**
+ */ const q = [
+    [
+      "path",
+      {
+        d: "M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z",
+        key: "j76jl0",
+      },
+    ],
+    ["path", { d: "M22 10v6", key: "1lu8f3" }],
+    ["path", { d: "M6 12.5V16a6 3 0 0 0 12 0v-3.5", key: "1r8lef" }],
+  ],
+  B = l("graduation-cap", q);
+/**
  * @license lucide-react v0.525.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */const F=[["rect",{width:"20",height:"20",x:"2",y:"2",rx:"5",ry:"5",key:"2e1cvw"}],["path",{d:"M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z",key:"9exkf1"}],["line",{x1:"17.5",x2:"17.51",y1:"6.5",y2:"6.5",key:"r4j83e"}]],G=l("instagram",F);/**
+ */ const F = [
+    [
+      "rect",
+      {
+        width: "20",
+        height: "20",
+        x: "2",
+        y: "2",
+        rx: "5",
+        ry: "5",
+        key: "2e1cvw",
+      },
+    ],
+    [
+      "path",
+      { d: "M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z", key: "9exkf1" },
+    ],
+    ["line", { x1: "17.5", x2: "17.51", y1: "6.5", y2: "6.5", key: "r4j83e" }],
+  ],
+  G = l("instagram", F);
+/**
  * @license lucide-react v0.525.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */const Q=[["path",{d:"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z",key:"c2jq9f"}],["rect",{width:"4",height:"12",x:"2",y:"9",key:"mk3on5"}],["circle",{cx:"4",cy:"4",r:"2",key:"bt5ra8"}]],R=l("linkedin",Q);/**
+ */ const Q = [
+    [
+      "path",
+      {
+        d: "M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z",
+        key: "c2jq9f",
+      },
+    ],
+    ["rect", { width: "4", height: "12", x: "2", y: "9", key: "mk3on5" }],
+    ["circle", { cx: "4", cy: "4", r: "2", key: "bt5ra8" }],
+  ],
+  R = l("linkedin", Q);
+/**
  * @license lucide-react v0.525.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */const U=[["path",{d:"m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7",key:"132q7q"}],["rect",{x:"2",y:"4",width:"20",height:"16",rx:"2",key:"izxlao"}]],b=l("mail",U);/**
+ */ const U = [
+    ["path", { d: "m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7", key: "132q7q" }],
+    [
+      "rect",
+      { x: "2", y: "4", width: "20", height: "16", rx: "2", key: "izxlao" },
+    ],
+  ],
+  b = l("mail", U);
+/**
  * @license lucide-react v0.525.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */const J=[["path",{d:"M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0",key:"1r0f0z"}],["circle",{cx:"12",cy:"10",r:"3",key:"ilqhr7"}]],O=l("map-pin",J);/**
+ */ const J = [
+    [
+      "path",
+      {
+        d: "M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0",
+        key: "1r0f0z",
+      },
+    ],
+    ["circle", { cx: "12", cy: "10", r: "3", key: "ilqhr7" }],
+  ],
+  O = l("map-pin", J);
+/**
  * @license lucide-react v0.525.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */const W=[["path",{d:"M4 12h16",key:"1lakjw"}],["path",{d:"M4 18h16",key:"19g7jn"}],["path",{d:"M4 6h16",key:"1o0s65"}]],X=l("menu",W);/**
+ */ const W = [
+    ["path", { d: "M4 12h16", key: "1lakjw" }],
+    ["path", { d: "M4 18h16", key: "19g7jn" }],
+    ["path", { d: "M4 6h16", key: "1o0s65" }],
+  ],
+  X = l("menu", W);
+/**
  * @license lucide-react v0.525.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */const Y=[["path",{d:"M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384",key:"9njp5v"}]],Z=l("phone",Y);/**
+ */ const Y = [
+    [
+      "path",
+      {
+        d: "M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384",
+        key: "9njp5v",
+      },
+    ],
+  ],
+  Z = l("phone", Y);
+/**
  * @license lucide-react v0.525.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */const K=[["path",{d:"M18 6 6 18",key:"1bl5f8"}],["path",{d:"m6 6 12 12",key:"d8bk6v"}]],ee=l("x",K),i={name:"Damián Vásquez",title:"Ingeniero de Sistemas | Desarrollador Full Stack",location:"Tarapoto, Perú",contact:{email:"damianvzch@gmail.com",phone:"+51 997 289 559",linkedin:"https://www.linkedin.com/in/damianvzch",github:"https://github.com/damianvzch",instagram:"https://www.instagram.com/damianvzch"},summary:"Ingeniero de Sistemas con 5 años de experiencia en el ciclo completo de desarrollo de software, especializado en la creación de aplicaciones web y móviles escalables. Experto en la construcción de soluciones robustas para los sectores financiero, salud y e-commerce. Actualmente desarrollando un emprendimiento propio (petgreat.net) y fortaleciendo mi perfil estratégico con un MBA para alinear la tecnología con los objetivos de negocio. Busco aportar mi experiencia en arquitecturas de microservicios y desarrollo de productos para crear soluciones de alto impacto.",skills:[{category:"Frontend",technologies:"JavaScript (ES6+), TypeScript, React (explorando Next.js), Angular, Flutter, HTML5, CSS3"},{category:"Backend",technologies:"Node.js (Express), Java (Spring Boot), Python (Django), C# (.NET Core), PHP (Laravel)"},{category:"Bases de Datos",technologies:"PostgreSQL, MySQL, SQL Server, MongoDB, Firebase"},{category:"Cloud & DevOps",technologies:"Google Cloud Platform, AWS, VPS, Git, GitHub, Jira, Docker (Básico)"},{category:"Arquitecturas y Metodologías",technologies:"Microservicios, API REST, MVC, Scrum, XP"},{category:"Hardware & IoT",technologies:"Raspberry Pi, Arduino, Sensores, Impresión 3D"}],experience:[{role:"Fundador & Desarrollador Full Stack (Freelance)",company:"Pet Great",period:"Ene. 2025 - Actualidad",location:"Tarapoto, Perú",description:"Conceptualicé, diseñé y estoy desarrollando 'Pet Great', una plataforma digital todo-en-uno para centralizar servicios para mascotas. Lidero el ciclo de vida completo del producto, desde la idea y la arquitectura hasta la implementación y el próximo lanzamiento.",stack:"React, Node.js (Express), PHP, MySQL, VPS, Google Cloud",media:{type:"image",src:"/Macbook-Air-PetGreat.png"}},{role:"Jefe de Práctica",company:"Universidad César Vallejo",period:"Sept. 2024 - Dic. 2024",location:"Tarapoto, Perú",description:"Lideré la enseñanza práctica de Programación y Bases de Datos, guiando a más de 40 estudiantes en el desarrollo de proyectos. Coordiné el Fab Lab, facilitando el uso de impresión 3D y microcontroladores (Arduino) para crear prototipos innovadores.",stack:"Impresión 3D, Arduino, Metodologías de enseñanza",media:{type:"video",src:"https://www.youtube.com/embed/NBCBPS4URwc?start=281"}},{role:"Desarrollador Full Stack",company:"Tucuna Travel S.A.C.",period:"Ene. 2024 - Ago. 2024",location:"Sauce, Perú",description:"Diseñé y desarrollé una plataforma de reservas turísticas, automatizando el proceso y mejorando la experiencia de usuario en un 60%.",stack:"React, Tailwind CSS, Laravel (PHP), MySQL",media:{type:"image",src:"/tucunatravel.jpg"}},{role:"Analista Programador",company:"Revelio JL S.A.C.",period:"Jun. 2023 - Dic. 2023",location:"Lima, Perú",description:"Desarrollé un sistema de gestión de inventario para un cliente del sector metalúrgico, optimizando sus procesos logísticos.",stack:"Python, Django, PostgreSQL, AWS",media:{type:"image",src:"/Macbook-Air-metalprotec.png"}},{role:"Analista Programador",company:"Neoteck Solutions E.I.R.L.",period:"Jun. 2022 - May. 2023",location:"Trujillo, Perú",description:"Participé en el desarrollo de un sistema de factoring que dio servicio a más de 1,600 clientes, mejorando la eficiencia operativa en un 30%.",stack:"Angular (TypeScript), C# (.NET Core/Framework), MySQL, SQL Server",media:{type:"image",src:"/neoteck.jpg"}},{role:"Programador Full Stack & Mobile",company:"Citamed S.A.C.",period:"Dic. 2021 - May. 2022",location:"Tarapoto, Perú",description:"Lancé con mi equipo  una aplicación móvil multiplataforma y un panel web para la gestión de citas médicas.",stack:"Flutter (Dart), Angular (TypeScript), PHP (Codelgniter), MySQL, Google Cloud",media:{type:"image",src:"/citamed.jpg"}},{role:"Programador (Prácticas Pre-profesionales)",company:"Arq. Construcción & Serv. Generales S.A.C.",period:"Abr. 2021 - Nov. 2021",location:"Yurimaguas, Perú",description:"Digitalicé el proceso de gestión de adquisiciones y gastos mediante el desarrollo de un sistema web que generaba reportes en PDF y Excel.",stack:"PHP, Bootstrap, MySQL",media:{type:"image",src:"/arqdicosg.png"}},{role:"Desarrollador de Sistemas Web",company:"Acupuntura China (Acucentro)",period:"Jul. 2019 - Dic. 2019",location:"Tarapoto, Perú",description:"Desarrollé el primer sistema web de la clínica para el registro de pacientes e historias clínicas. Automaticé el envío de recordatorios de citas vía WhatsApp, reduciendo la tasa de inasistencia en un 25%.",stack:"PHP, Bootstrap, MySQL, WhatsApp API",media:{type:"image",src:"/acucentro.jpg"}}],projects:[{title:"Control vehicular para el estacionamiento",company:"Universidad César Vallejo",year:"2024",description:"Desarrollé un sistema de control vehicular para el estacionamiento de la universidad, que permite registrar y gestionar los vehículos de forma eficiente. Implementé reconocimientos de placas y un sistema Web responsivo para la administración.",stack:"Python, Django, OpenCV, React, Tailwind CSS, MySQL",link:"",media:{type:"video",src:"https://player.vimeo.com/video/1102048927?h=4dd34792a0"}},{title:"Sistema Inteligente para Triaje Hospitalario (Tesis)",company:"Hospital II-E Juanjuí",year:"2021",description:"Diseñé y construí un sistema basado en Arduino y Python para medir signos vitales automáticamente, reduciendo el tiempo de espera en el área de triaje en un 78%. Expuse este proyecto en el XXII Congreso Internacional de Informática y Sistemas.",stack:"Python, Arduino, C++, Sensores, Hardware",link:"https://drive.google.com/file/d/1xf0GCqMX3l4Td9jdRzC6OYyOm_4pfnrf/view?usp=sharing",media:{type:"video",src:"https://player.vimeo.com/video/1102050361?h=4cdf7032d5"}}],education:[{degree:"Maestría en Administración de Negocios (MBA)",institution:"Universidad César Vallejo",period:"2024 - Actualidad"},{degree:"Título Profesional de Ingeniero de Sistemas",institution:"Universidad César Vallejo",period:"2017 - 2021"},{degree:"Movilidad Académica Internacional",institution:"Universidad Católica de Oriente, Colombia",period:"2020"}]},g=a=>{a.preventDefault();const s=a.currentTarget.getAttribute("href").replace(/.*#/,"");document.getElementById(s)?.scrollIntoView({behavior:"smooth"})},x=({id:a,title:t,icon:s,children:o,className:c=""})=>e.jsx("section",{id:a,className:`py-20 md:py-28 ${c}`,children:e.jsxs("div",{className:"container mx-auto px-4",children:[e.jsxs("h2",{className:"text-3xl md:text-4xl font-bold text-center mb-16 text-slate-100 flex items-center justify-center gap-4",children:[e.jsx(s,{className:"w-10 h-10 text-cyan-400"}),t]}),o]})}),ae=({onMenuToggle:a,isMenuOpen:t,activeSection:s,isScrolled:o})=>{const c=[{id:"about",title:"Sobre Mí"},{id:"experience",title:"Experiencia"},{id:"projects",title:"Proyectos"},{id:"skills",title:"Habilidades"},{id:"education",title:"Educación"},{id:"contact",title:"Contacto"}],n=r=>`
+ */ const K = [
+    ["path", { d: "M18 6 6 18", key: "1bl5f8" }],
+    ["path", { d: "m6 6 12 12", key: "d8bk6v" }],
+  ],
+  ee = l("x", K),
+  i = {
+    name: "Damián Vásquez",
+    title: "Ingeniero de Sistemas | Desarrollador Full Stack",
+    location: "Tarapoto, Perú",
+    contact: {
+      email: "damianvzch@gmail.com",
+      phone: "+51 955 205 699",
+      linkedin: "https://www.linkedin.com/in/damianvzch",
+      github: "https://github.com/damianvzch",
+      instagram: "https://www.instagram.com/damianvzch",
+    },
+    summary:
+      "Ingeniero de Sistemas con más de 5 años de trayectoria en el desarrollo de software. Poseo experiencia integrando ecosistemas tecnológicos como PHP, JavaScript, Python, C# y Java, enfocándome en la modernización de sistemas empresariales. Comprometido con la escritura de código limpio bajo principios SOLID, busco contribuir al éxito de los proyectos mediante el aprendizaje continuo, la colaboración técnica y el despliegue eficiente en la nube.",
+    skills: [
+      {
+        category: "Frontend",
+        technologies:
+          "JavaScript (ES6+), TypeScript, React (Inertia.js), Vue 3, Angular, Flutter, Tailwind CSS",
+      },
+      {
+        category: "Backend",
+        technologies:
+          "PHP 8.3 (Laravel 12), Node.js (Express), Python (Django), C# (.NET Core), Java (Spring Boot)",
+      },
+      {
+        category: "Bases de Datos",
+        technologies:
+          "MySQL (Optimización), PostgreSQL, SQL Server, MongoDB, Firebase",
+      },
+      {
+        category: "Cloud & DevOps",
+        technologies:
+          "AWS, Google Cloud Platform, VPS (Linux), Docker, Git, CI/CD",
+      },
+      {
+        category: "Arquitecturas",
+        technologies:
+          "Principios SOLID, Clean Architecture, Microservicios, API REST, Scrum",
+      },
+      {
+        category: "Hardware & IoT",
+        technologies: "Raspberry Pi, Arduino, Sensores, Impresión 3D",
+      },
+    ],
+    experience: [
+      {
+        role: "Desarrollador Full Stack",
+        company: "Deyfor E.I.R.L.",
+        period: "Sept. 2025 - Dic. 2025",
+        location: "Cajamarca, Perú",
+        description:
+          "Participé en la transición tecnológica hacia el ERP Deytha v3, un sistema integral para la gestión de servicios en Minería y Energía. Diseñé una arquitectura desacoplada y escalable con Laravel 12 y Vue 3 (Inertia.js), centralizando operaciones críticas de mantenimiento y logística bajo principios SOLID.",
+        stack: "Laravel 12, Vue 3, Inertia.js, PHP 8.3, MySQL, Tailwind CSS",
+        media: {
+          type: "image",
+          src: "/deyfor.png",
+        },
+      },
+      {
+        role: "Fundador & Desarrollador Full Stack (Freelance)",
+        company: "Pet Great",
+        period: "Ene. 2025 - Actualidad",
+        location: "Tarapoto, Perú",
+        description:
+          "Conceptualicé, diseñé y estoy desarrollando 'Pet Great', una plataforma digital todo-en-uno para centralizar servicios para mascotas. Lidero el ciclo de vida completo del producto, desde la idea y la arquitectura hasta la implementación y el próximo lanzamiento.",
+        stack: "React, Node.js (Express), PHP, MySQL, VPS, Google Cloud",
+        media: { type: "image", src: "/Macbook-Air-PetGreat.png" },
+      },
+      {
+        role: "Jefe de Práctica",
+        company: "Universidad César Vallejo",
+        period: "Sept. 2024 - Dic. 2024",
+        location: "Tarapoto, Perú",
+        description:
+          "Lideré la enseñanza práctica de Programación y Bases de Datos, guiando a más de 40 estudiantes en el desarrollo de proyectos. Coordiné el Fab Lab, facilitando el uso de impresión 3D y microcontroladores (Arduino) para crear prototipos innovadores.",
+        stack: "Impresión 3D, Arduino, Metodologías de enseñanza",
+        media: {
+          type: "video",
+          src: "https://www.youtube.com/embed/NBCBPS4URwc?start=281",
+        },
+      },
+      {
+        role: "Desarrollador Full Stack",
+        company: "Tucuna Travel S.A.C.",
+        period: "Ene. 2024 - Ago. 2024",
+        location: "Sauce, Perú",
+        description:
+          "Diseñé y desarrollé una plataforma de reservas turísticas, automatizando el proceso y mejorando la experiencia de usuario en un 60%.",
+        stack: "React, Tailwind CSS, Laravel (PHP), MySQL",
+        media: { type: "image", src: "/tucunatravel.jpg" },
+      },
+      {
+        role: "Analista Programador",
+        company: "Revelio JL S.A.C.",
+        period: "Jun. 2023 - Dic. 2023",
+        location: "Lima, Perú",
+        description:
+          "Desarrollé un sistema de gestión de inventario para un cliente del sector metalúrgico, optimizando sus procesos logísticos.",
+        stack: "Python, Django, PostgreSQL, AWS",
+        media: { type: "image", src: "/Macbook-Air-metalprotec.png" },
+      },
+      {
+        role: "Analista Programador",
+        company: "Neoteck Solutions E.I.R.L.",
+        period: "Jun. 2022 - May. 2023",
+        location: "Trujillo, Perú",
+        description:
+          "Participé en el desarrollo de un sistema de factoring que dio servicio a más de 1,600 clientes, mejorando la eficiencia operativa en un 30%.",
+        stack:
+          "Angular (TypeScript), C# (.NET Core/Framework), MySQL, SQL Server",
+        media: { type: "image", src: "/neoteck.jpg" },
+      },
+      {
+        role: "Programador Full Stack & Mobile",
+        company: "Citamed S.A.C.",
+        period: "Dic. 2021 - May. 2022",
+        location: "Tarapoto, Perú",
+        description:
+          "Lancé con mi equipo  una aplicación móvil multiplataforma y un panel web para la gestión de citas médicas.",
+        stack:
+          "Flutter (Dart), Angular (TypeScript), PHP (Codelgniter), MySQL, Google Cloud",
+        media: { type: "image", src: "/citamed.jpg" },
+      },
+      {
+        role: "Programador (Prácticas Pre-profesionales)",
+        company: "Arq. Construcción & Serv. Generales S.A.C.",
+        period: "Abr. 2021 - Nov. 2021",
+        location: "Yurimaguas, Perú",
+        description:
+          "Digitalicé el proceso de gestión de adquisiciones y gastos mediante el desarrollo de un sistema web que generaba reportes en PDF y Excel.",
+        stack: "PHP, Bootstrap, MySQL",
+        media: { type: "image", src: "/arqdicosg.png" },
+      },
+      {
+        role: "Desarrollador de Sistemas Web",
+        company: "Acupuntura China (Acucentro)",
+        period: "Jul. 2019 - Dic. 2019",
+        location: "Tarapoto, Perú",
+        description:
+          "Desarrollé el primer sistema web de la clínica para el registro de pacientes e historias clínicas. Automaticé el envío de recordatorios de citas vía WhatsApp, reduciendo la tasa de inasistencia en un 25%.",
+        stack: "PHP, Bootstrap, MySQL, WhatsApp API",
+        media: { type: "image", src: "/acucentro.jpg" },
+      },
+    ],
+    projects: [
+      {
+        title: "Control vehicular para el estacionamiento",
+        company: "Universidad César Vallejo",
+        year: "2024",
+        description:
+          "Desarrollé un sistema de control vehicular para el estacionamiento de la universidad, que permite registrar y gestionar los vehículos de forma eficiente. Implementé reconocimientos de placas y un sistema Web responsivo para la administración.",
+        stack: "Python, Django, OpenCV, React, Tailwind CSS, MySQL",
+        link: "",
+        media: {
+          type: "video",
+          src: "https://player.vimeo.com/video/1102048927?h=4dd34792a0",
+        },
+      },
+      {
+        title: "Sistema Inteligente para Triaje Hospitalario (Tesis)",
+        company: "Hospital II-E Juanjuí",
+        year: "2021",
+        description:
+          "Diseñé y construí un sistema basado en Arduino y Python para medir signos vitales automáticamente, reduciendo el tiempo de espera en el área de triaje en un 78%. Expuse este proyecto en el XXII Congreso Internacional de Informática y Sistemas.",
+        stack: "Python, Arduino, C++, Sensores, Hardware",
+        link: "https://drive.google.com/file/d/1xf0GCqMX3l4Td9jdRzC6OYyOm_4pfnrf/view?usp=sharing",
+        media: {
+          type: "video",
+          src: "https://player.vimeo.com/video/1102050361?h=4cdf7032d5",
+        },
+      },
+    ],
+    education: [
+      {
+        degree: "Maestría en Administración de Negocios (MBA)",
+        institution: "Universidad César Vallejo",
+        period: "2024 - Actualidad",
+      },
+      {
+        degree: "Título Profesional de Ingeniero de Sistemas",
+        institution: "Universidad César Vallejo",
+        period: "2017 - 2021",
+      },
+      {
+        degree: "Movilidad Académica Internacional",
+        institution: "Universidad Católica de Oriente, Colombia",
+        period: "2020",
+      },
+    ],
+  },
+  g = (a) => {
+    a.preventDefault();
+    const s = a.currentTarget.getAttribute("href").replace(/.*#/, "");
+    document.getElementById(s)?.scrollIntoView({ behavior: "smooth" });
+  },
+  x = ({ id: a, title: t, icon: s, children: o, className: c = "" }) =>
+    e.jsx("section", {
+      id: a,
+      className: `py-20 md:py-28 ${c}`,
+      children: e.jsxs("div", {
+        className: "container mx-auto px-4",
+        children: [
+          e.jsxs("h2", {
+            className:
+              "text-3xl md:text-4xl font-bold text-center mb-16 text-slate-100 flex items-center justify-center gap-4",
+            children: [e.jsx(s, { className: "w-10 h-10 text-cyan-400" }), t],
+          }),
+          o,
+        ],
+      }),
+    }),
+  ae = ({
+    onMenuToggle: a,
+    isMenuOpen: t,
+    activeSection: s,
+    isScrolled: o,
+  }) => {
+    const c = [
+        { id: "about", title: "Sobre Mí" },
+        { id: "experience", title: "Experiencia" },
+        { id: "projects", title: "Proyectos" },
+        { id: "skills", title: "Habilidades" },
+        { id: "education", title: "Educación" },
+        { id: "contact", title: "Contacto" },
+      ],
+      n = (r) => `
     text-lg font-medium transition-colors duration-300
-    ${s===r?"text-cyan-400":"text-slate-300 hover:text-cyan-400"}
-  `,h=`
+    ${s === r ? "text-cyan-400" : "text-slate-300 hover:text-cyan-400"}
+  `,
+      h = `
     fixed top-0 left-0 right-0 z-50 transition-all duration-300
-    ${o?"bg-slate-900/70 backdrop-blur-lg shadow-lg shadow-black/20":"bg-transparent shadow-none"}
-  `;return e.jsxs("header",{className:h,children:[e.jsx("div",{className:"container mx-auto px-4",children:e.jsxs("div",{className:"flex justify-between items-center py-4",children:[e.jsx("a",{href:"#home",onClick:g,className:"text-2xl font-bold text-cyan-400 hover:text-cyan-300 transition-colors duration-300",children:e.jsx(N,{size:32})}),e.jsx("nav",{className:"hidden md:flex space-x-8",children:c.map(r=>e.jsx("a",{href:`#${r.id}`,onClick:g,className:n(r.id),children:r.title},r.id))}),e.jsx("button",{onClick:a,className:"md:hidden text-slate-200",children:t?e.jsx(ee,{size:28}):e.jsx(X,{size:28})})]})}),t&&e.jsx("div",{className:"md:hidden bg-slate-900",children:e.jsx("nav",{className:"flex flex-col items-center space-y-6 py-6",children:c.map(r=>e.jsx("a",{href:`#${r.id}`,onClick:m=>{g(m),a()},className:n(r.id),children:r.title},r.id))})})]})},te=()=>e.jsxs("section",{id:"home",className:"min-h-screen flex flex-col items-center justify-center relative overflow-hidden bg-slate-900",children:[e.jsxs("div",{className:"absolute inset-0 z-0",children:[e.jsx("div",{className:"absolute inset-0 bg-gradient-to-br from-slate-900 via-blue-900/30 to-slate-900"}),e.jsx("div",{className:"absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_center,_rgba(29,78,216,0.15)_0%,_transparent_50%)]"}),e.jsx("div",{className:"absolute top-1/4 -left-32 w-96 h-96 bg-cyan-500/20 rounded-full filter blur-3xl opacity-40 animate-blob"}),e.jsx("div",{className:"absolute -bottom-32 right-1/4 w-96 h-96 bg-blue-500/20 rounded-full filter blur-3xl opacity-40 animate-blob animation-delay-2000"}),e.jsx("div",{className:"absolute -top-32 right-10 w-80 h-80 bg-indigo-500/20 rounded-full filter blur-3xl opacity-40 animate-blob animation-delay-4000"})]}),e.jsxs("div",{className:"text-center z-10 animate-fade-in-up flex-grow flex flex-col justify-center p-4 pt-28",children:[e.jsx("h1",{className:"text-5xl md:text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-slate-100 to-slate-400 mb-4",children:i.name}),e.jsx("p",{className:"text-xl md:text-2xl text-slate-300 mb-8",children:i.title}),e.jsxs("div",{className:"flex justify-center items-center space-x-4 text-slate-400 mb-12",children:[e.jsx(O,{className:"w-5 h-5 text-cyan-400"}),e.jsx("span",{children:i.location})]}),e.jsxs("div",{className:"flex flex-col sm:flex-row items-center justify-center gap-6",children:[e.jsxs("a",{href:"#about",onClick:g,className:"group relative inline-block px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-500 text-white font-bold rounded-full overflow-hidden transition-all duration-300 transform hover:scale-105 shadow-lg shadow-blue-500/30 w-full sm:w-auto text-center",children:[e.jsx("span",{className:"absolute top-0 left-0 w-full h-full bg-white opacity-20 group-hover:opacity-0 transition-opacity duration-300"}),"Conoce más sobre mí"]}),e.jsxs("a",{href:"/CV-MIGUEL_ANGEL_DAMIAN_VASQUEZ_CHUJANDAMA.pdf",download:"CV-Miguel_Vasquez.pdf",className:"group relative inline-flex items-center justify-center gap-3 px-8 py-4 bg-transparent border-2 border-cyan-400 text-white font-bold rounded-full overflow-hidden transition-all duration-300 transform hover:scale-105 hover:bg-cyan-400/20 w-full sm:w-auto",children:[e.jsx(T,{className:"w-5 h-5"}),e.jsx("span",{children:"Descargar CV"})]})]})]}),e.jsx("div",{className:"absolute bottom-10 left-1/2 -translate-x-1/2 z-10",children:e.jsx("a",{href:"#about","aria-label":"Scroll down",onClick:g,children:e.jsx(E,{className:"w-10 h-10 text-slate-500 hover:text-cyan-400 transition-colors animate-bounce"})})})]}),se=()=>e.jsx(x,{id:"about",title:"Sobre Mí",icon:w,className:"bg-slate-900",children:e.jsx("div",{className:"max-w-4xl mx-auto text-center",children:e.jsx("p",{className:"text-lg md:text-xl text-slate-300 leading-relaxed",children:i.summary})})}),oe=()=>e.jsx(x,{id:"experience",title:"Experiencia Profesional",icon:w,className:"bg-slate-800/50",children:e.jsx("div",{className:"relative max-w-6xl mx-auto space-y-12",children:i.experience.map((a,t)=>e.jsxs("div",{className:"flex flex-col md:flex-row items-center w-full gap-8",children:[e.jsx("div",{className:`w-full md:w-1/2 ${t%2!==0?"md:order-2":""}`,children:e.jsx("div",{className:"rounded-lg shadow-2xl shadow-black/30 overflow-hidden bg-slate-700 aspect-video transition-all duration-300 hover:scale-105 hover:shadow-cyan-500/20",children:a.media.type==="image"?e.jsx("img",{src:a.media.src,alt:`${a.company} project`,className:"w-full h-full object-cover",onError:s=>{s.target.onerror=null,s.target.src="https://placehold.co/600x400/0f172a/ff0000?text=Error"}}):e.jsx("iframe",{className:"w-full h-full",src:a.media.src,title:`Video for ${a.company}`,frameBorder:"0",allow:"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",allowFullScreen:!0})})}),e.jsxs("div",{className:`w-full md:w-1/2 ${t%2!==0?"md:order-1":""}`,children:[e.jsx("p",{className:"text-sm text-cyan-400 font-semibold",children:a.period}),e.jsx("h3",{className:"text-2xl font-bold text-slate-100 mt-1",children:a.role}),e.jsxs("p",{className:"text-lg text-slate-300 mb-3",children:[a.company," - ",e.jsx("span",{className:"text-slate-400",children:a.location})]}),e.jsx("p",{className:"text-slate-400 mb-4",children:a.description}),e.jsx("div",{className:"flex flex-wrap gap-2",children:a.stack.split(", ").map(s=>e.jsx("span",{className:"bg-slate-700 text-cyan-300 text-xs font-medium px-3 py-1 rounded-full",children:s},s))})]})]},t))})}),re=()=>{const a=i.projects.length===1;return e.jsx(x,{id:"projects",title:"Proyectos Destacados",icon:N,className:"bg-slate-900",children:e.jsx("div",{className:a?"flex justify-center":"grid md:grid-cols-2 gap-12 max-w-6xl mx-auto",children:i.projects.map((t,s)=>e.jsxs("div",{className:`bg-slate-800/50 rounded-xl shadow-lg overflow-hidden group transform hover:-translate-y-2 transition-transform duration-300 border border-slate-700 hover:border-blue-500/50 hover:shadow-2xl hover:shadow-blue-500/10 ${a?"max-w-3xl":""}`,children:[e.jsx("div",{className:"overflow-hidden aspect-video bg-slate-900 group-hover:scale-105 transition-transform duration-500",children:t.media.type==="image"?e.jsx("img",{src:t.media.src,alt:t.title,className:"w-full h-full object-cover",onError:o=>{o.target.onerror=null,o.target.src="https://placehold.co/600x400/1e40af/ff0000?text=Error"}}):e.jsx("iframe",{className:"w-full h-full",src:t.media.src,title:`Video for ${t.title}`,frameBorder:"0",allow:"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",allowFullScreen:!0})}),e.jsxs("div",{className:"p-6",children:[e.jsxs("p",{className:"text-sm text-slate-400",children:[t.company," | ",t.year]}),e.jsx("h3",{className:"text-xl font-bold text-slate-100 mt-2 mb-3",children:t.title}),e.jsx("p",{className:"text-slate-300 mb-4",children:t.description}),e.jsx("div",{className:"flex flex-wrap gap-2 mb-4",children:t.stack.split(", ").map(o=>e.jsx("span",{className:"bg-blue-900/50 text-blue-300 text-xs font-medium px-3 py-1 rounded-full",children:o},o))}),t.link&&t.link!=="#"&&e.jsx("a",{href:t.link,target:"_blank",rel:"noopener noreferrer",className:"text-cyan-400 hover:text-cyan-300 font-semibold",children:"Ver más →"})]})]},s))})})},ie=()=>e.jsx(x,{id:"skills",title:"Habilidades Técnicas",icon:$,className:"bg-slate-800/50",children:e.jsx("div",{className:"max-w-5xl mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-8",children:i.skills.map((a,t)=>e.jsxs("div",{className:"bg-slate-900/70 p-6 rounded-lg shadow-md border border-slate-700 hover:border-cyan-500/50 transition-colors",children:[e.jsx("h3",{className:"text-xl font-bold text-cyan-400 mb-3",children:a.category}),e.jsx("p",{className:"text-slate-300",children:a.technologies})]},t))})}),le=()=>e.jsx(x,{id:"education",title:"Educación",icon:B,className:"bg-slate-900",children:e.jsx("div",{className:"max-w-3xl mx-auto space-y-8",children:i.education.map((a,t)=>e.jsxs("div",{className:"p-6 bg-slate-800/50 rounded-lg shadow-sm border-l-4 border-cyan-500",children:[e.jsx("p",{className:"text-sm text-slate-400",children:a.period}),e.jsx("h3",{className:"text-xl font-bold text-slate-100 mt-1",children:a.degree}),e.jsx("p",{className:"text-slate-300",children:a.institution})]},t))})}),ne=()=>e.jsx(x,{id:"contact",title:"Contacto",icon:b,className:"bg-slate-800/50",children:e.jsxs("div",{className:"max-w-3xl mx-auto text-center",children:[e.jsx("p",{className:"text-lg text-slate-300 mb-8",children:"Estoy abierto a nuevas oportunidades y colaboraciones. ¡No dudes en contactarme!"}),e.jsxs("div",{className:"flex flex-col md:flex-row justify-center items-center gap-8 mb-10",children:[e.jsxs("a",{href:`mailto:${i.contact.email}`,className:"flex items-center gap-3 text-slate-200 hover:text-cyan-400 transition-colors text-lg",children:[e.jsx(b,{className:"w-6 h-6"}),e.jsx("span",{children:i.contact.email})]}),e.jsxs("div",{className:"flex items-center gap-3 text-slate-200 text-lg",children:[e.jsx(Z,{className:"w-6 h-6"}),e.jsx("span",{children:i.contact.phone})]})]}),e.jsxs("div",{className:"flex justify-center space-x-8",children:[e.jsx("a",{href:i.contact.linkedin,target:"_blank",rel:"noopener noreferrer",className:"text-slate-400 hover:text-cyan-400 transition-transform transform hover:scale-110",children:e.jsx(R,{size:32})}),e.jsx("a",{href:i.contact.github,target:"_blank",rel:"noopener noreferrer",className:"text-slate-400 hover:text-cyan-400 transition-transform transform hover:scale-110",children:e.jsx(V,{size:32})}),e.jsx("a",{href:i.contact.instagram,target:"_blank",rel:"noopener noreferrer",className:"text-slate-400 hover:text-cyan-400 transition-transform transform hover:scale-110",children:e.jsx(G,{size:32})})]})]})}),ce=()=>e.jsx("footer",{className:"bg-slate-900 text-center py-8 border-t border-slate-800",children:e.jsxs("p",{className:"text-slate-500",children:["© ",new Date().getFullYear()," ",i.name,". Todos los derechos reservados."]})});function me(){const[a,t]=d.useState(!1),[s,o]=d.useState("home"),[c,n]=d.useState(!1);d.useEffect(()=>{const r=document.querySelectorAll("section[id]"),m=()=>{const p=window.pageYOffset;n(p>10);let u="home";p<window.innerHeight*.7?u="home":r.forEach(y=>{const k=y.offsetHeight,f=y.offsetTop-100;p>=f&&p<f+k&&(u=y.getAttribute("id"))}),o(u)};return window.addEventListener("scroll",m,{passive:!0}),()=>window.removeEventListener("scroll",m)},[]);const h=()=>{t(!a)};return e.jsxs("div",{className:"bg-slate-900 text-slate-200 font-sans leading-normal tracking-tight selection:bg-cyan-300 selection:text-cyan-900",children:[e.jsx(ae,{onMenuToggle:h,isMenuOpen:a,activeSection:s,isScrolled:c}),e.jsxs("main",{children:[e.jsx(te,{}),e.jsx(se,{}),e.jsx(oe,{}),e.jsx(re,{}),e.jsx(ie,{}),e.jsx(le,{}),e.jsx(ne,{})]}),e.jsx(ce,{})]})}export{me as default};
+    ${
+      o
+        ? "bg-slate-900/70 backdrop-blur-lg shadow-lg shadow-black/20"
+        : "bg-transparent shadow-none"
+    }
+  `;
+    return e.jsxs("header", {
+      className: h,
+      children: [
+        e.jsx("div", {
+          className: "container mx-auto px-4",
+          children: e.jsxs("div", {
+            className: "flex justify-between items-center py-4",
+            children: [
+              e.jsx("a", {
+                href: "#home",
+                onClick: g,
+                className:
+                  "text-2xl font-bold text-cyan-400 hover:text-cyan-300 transition-colors duration-300",
+                children: e.jsx(N, { size: 32 }),
+              }),
+              e.jsx("nav", {
+                className: "hidden md:flex space-x-8",
+                children: c.map((r) =>
+                  e.jsx(
+                    "a",
+                    {
+                      href: `#${r.id}`,
+                      onClick: g,
+                      className: n(r.id),
+                      children: r.title,
+                    },
+                    r.id
+                  )
+                ),
+              }),
+              e.jsx("button", {
+                onClick: a,
+                className: "md:hidden text-slate-200",
+                children: t ? e.jsx(ee, { size: 28 }) : e.jsx(X, { size: 28 }),
+              }),
+            ],
+          }),
+        }),
+        t &&
+          e.jsx("div", {
+            className: "md:hidden bg-slate-900",
+            children: e.jsx("nav", {
+              className: "flex flex-col items-center space-y-6 py-6",
+              children: c.map((r) =>
+                e.jsx(
+                  "a",
+                  {
+                    href: `#${r.id}`,
+                    onClick: (m) => {
+                      g(m), a();
+                    },
+                    className: n(r.id),
+                    children: r.title,
+                  },
+                  r.id
+                )
+              ),
+            }),
+          }),
+      ],
+    });
+  },
+  te = () =>
+    e.jsxs("section", {
+      id: "home",
+      className:
+        "min-h-screen flex flex-col items-center justify-center relative overflow-hidden bg-slate-900",
+      children: [
+        e.jsxs("div", {
+          className: "absolute inset-0 z-0",
+          children: [
+            e.jsx("div", {
+              className:
+                "absolute inset-0 bg-gradient-to-br from-slate-900 via-blue-900/30 to-slate-900",
+            }),
+            e.jsx("div", {
+              className:
+                "absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_center,_rgba(29,78,216,0.15)_0%,_transparent_50%)]",
+            }),
+            e.jsx("div", {
+              className:
+                "absolute top-1/4 -left-32 w-96 h-96 bg-cyan-500/20 rounded-full filter blur-3xl opacity-40 animate-blob",
+            }),
+            e.jsx("div", {
+              className:
+                "absolute -bottom-32 right-1/4 w-96 h-96 bg-blue-500/20 rounded-full filter blur-3xl opacity-40 animate-blob animation-delay-2000",
+            }),
+            e.jsx("div", {
+              className:
+                "absolute -top-32 right-10 w-80 h-80 bg-indigo-500/20 rounded-full filter blur-3xl opacity-40 animate-blob animation-delay-4000",
+            }),
+          ],
+        }),
+        e.jsxs("div", {
+          className:
+            "text-center z-10 animate-fade-in-up flex-grow flex flex-col justify-center p-4 pt-28",
+          children: [
+            e.jsx("h1", {
+              className:
+                "text-5xl md:text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-slate-100 to-slate-400 mb-4",
+              children: i.name,
+            }),
+            e.jsx("p", {
+              className: "text-xl md:text-2xl text-slate-300 mb-8",
+              children: i.title,
+            }),
+            e.jsxs("div", {
+              className:
+                "flex justify-center items-center space-x-4 text-slate-400 mb-12",
+              children: [
+                e.jsx(O, { className: "w-5 h-5 text-cyan-400" }),
+                e.jsx("span", { children: i.location }),
+              ],
+            }),
+            e.jsxs("div", {
+              className:
+                "flex flex-col sm:flex-row items-center justify-center gap-6",
+              children: [
+                e.jsxs("a", {
+                  href: "#about",
+                  onClick: g,
+                  className:
+                    "group relative inline-block px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-500 text-white font-bold rounded-full overflow-hidden transition-all duration-300 transform hover:scale-105 shadow-lg shadow-blue-500/30 w-full sm:w-auto text-center",
+                  children: [
+                    e.jsx("span", {
+                      className:
+                        "absolute top-0 left-0 w-full h-full bg-white opacity-20 group-hover:opacity-0 transition-opacity duration-300",
+                    }),
+                    "Conoce más sobre mí",
+                  ],
+                }),
+                e.jsxs("a", {
+                  href: "/CV-MIGUEL_ANGEL_DAMIAN_VASQUEZ_CHUJANDAMA.pdf",
+                  download: "CV-Miguel_Vasquez.pdf",
+                  className:
+                    "group relative inline-flex items-center justify-center gap-3 px-8 py-4 bg-transparent border-2 border-cyan-400 text-white font-bold rounded-full overflow-hidden transition-all duration-300 transform hover:scale-105 hover:bg-cyan-400/20 w-full sm:w-auto",
+                  children: [
+                    e.jsx(T, { className: "w-5 h-5" }),
+                    e.jsx("span", { children: "Descargar CV" }),
+                  ],
+                }),
+              ],
+            }),
+          ],
+        }),
+        e.jsx("div", {
+          className: "absolute bottom-10 left-1/2 -translate-x-1/2 z-10",
+          children: e.jsx("a", {
+            href: "#about",
+            "aria-label": "Scroll down",
+            onClick: g,
+            children: e.jsx(E, {
+              className:
+                "w-10 h-10 text-slate-500 hover:text-cyan-400 transition-colors animate-bounce",
+            }),
+          }),
+        }),
+      ],
+    }),
+  se = () =>
+    e.jsx(x, {
+      id: "about",
+      title: "Sobre Mí",
+      icon: w,
+      className: "bg-slate-900",
+      children: e.jsx("div", {
+        className: "max-w-4xl mx-auto text-center",
+        children: e.jsx("p", {
+          className: "text-lg md:text-xl text-slate-300 leading-relaxed",
+          children: i.summary,
+        }),
+      }),
+    }),
+  oe = () =>
+    e.jsx(x, {
+      id: "experience",
+      title: "Experiencia Profesional",
+      icon: w,
+      className: "bg-slate-800/50",
+      children: e.jsx("div", {
+        className: "relative max-w-6xl mx-auto space-y-12",
+        children: i.experience.map((a, t) =>
+          e.jsxs(
+            "div",
+            {
+              className: "flex flex-col md:flex-row items-center w-full gap-8",
+              children: [
+                e.jsx("div", {
+                  className: `w-full md:w-1/2 ${
+                    t % 2 !== 0 ? "md:order-2" : ""
+                  }`,
+                  children: e.jsx("div", {
+                    className:
+                      "rounded-lg shadow-2xl shadow-black/30 overflow-hidden bg-slate-700 aspect-video transition-all duration-300 hover:scale-105 hover:shadow-cyan-500/20",
+                    children:
+                      a.media.type === "image"
+                        ? e.jsx("img", {
+                            src: a.media.src,
+                            alt: `${a.company} project`,
+                            className: "w-full h-full object-cover",
+                            onError: (s) => {
+                              (s.target.onerror = null),
+                                (s.target.src =
+                                  "https://placehold.co/600x400/0f172a/ff0000?text=Error");
+                            },
+                          })
+                        : e.jsx("iframe", {
+                            className: "w-full h-full",
+                            src: a.media.src,
+                            title: `Video for ${a.company}`,
+                            frameBorder: "0",
+                            allow:
+                              "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
+                            allowFullScreen: !0,
+                          }),
+                  }),
+                }),
+                e.jsxs("div", {
+                  className: `w-full md:w-1/2 ${
+                    t % 2 !== 0 ? "md:order-1" : ""
+                  }`,
+                  children: [
+                    e.jsx("p", {
+                      className: "text-sm text-cyan-400 font-semibold",
+                      children: a.period,
+                    }),
+                    e.jsx("h3", {
+                      className: "text-2xl font-bold text-slate-100 mt-1",
+                      children: a.role,
+                    }),
+                    e.jsxs("p", {
+                      className: "text-lg text-slate-300 mb-3",
+                      children: [
+                        a.company,
+                        " - ",
+                        e.jsx("span", {
+                          className: "text-slate-400",
+                          children: a.location,
+                        }),
+                      ],
+                    }),
+                    e.jsx("p", {
+                      className: "text-slate-400 mb-4",
+                      children: a.description,
+                    }),
+                    e.jsx("div", {
+                      className: "flex flex-wrap gap-2",
+                      children: a.stack.split(", ").map((s) =>
+                        e.jsx(
+                          "span",
+                          {
+                            className:
+                              "bg-slate-700 text-cyan-300 text-xs font-medium px-3 py-1 rounded-full",
+                            children: s,
+                          },
+                          s
+                        )
+                      ),
+                    }),
+                  ],
+                }),
+              ],
+            },
+            t
+          )
+        ),
+      }),
+    }),
+  re = () => {
+    const a = i.projects.length === 1;
+    return e.jsx(x, {
+      id: "projects",
+      title: "Proyectos Destacados",
+      icon: N,
+      className: "bg-slate-900",
+      children: e.jsx("div", {
+        className: a
+          ? "flex justify-center"
+          : "grid md:grid-cols-2 gap-12 max-w-6xl mx-auto",
+        children: i.projects.map((t, s) =>
+          e.jsxs(
+            "div",
+            {
+              className: `bg-slate-800/50 rounded-xl shadow-lg overflow-hidden group transform hover:-translate-y-2 transition-transform duration-300 border border-slate-700 hover:border-blue-500/50 hover:shadow-2xl hover:shadow-blue-500/10 ${
+                a ? "max-w-3xl" : ""
+              }`,
+              children: [
+                e.jsx("div", {
+                  className:
+                    "overflow-hidden aspect-video bg-slate-900 group-hover:scale-105 transition-transform duration-500",
+                  children:
+                    t.media.type === "image"
+                      ? e.jsx("img", {
+                          src: t.media.src,
+                          alt: t.title,
+                          className: "w-full h-full object-cover",
+                          onError: (o) => {
+                            (o.target.onerror = null),
+                              (o.target.src =
+                                "https://placehold.co/600x400/1e40af/ff0000?text=Error");
+                          },
+                        })
+                      : e.jsx("iframe", {
+                          className: "w-full h-full",
+                          src: t.media.src,
+                          title: `Video for ${t.title}`,
+                          frameBorder: "0",
+                          allow:
+                            "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
+                          allowFullScreen: !0,
+                        }),
+                }),
+                e.jsxs("div", {
+                  className: "p-6",
+                  children: [
+                    e.jsxs("p", {
+                      className: "text-sm text-slate-400",
+                      children: [t.company, " | ", t.year],
+                    }),
+                    e.jsx("h3", {
+                      className: "text-xl font-bold text-slate-100 mt-2 mb-3",
+                      children: t.title,
+                    }),
+                    e.jsx("p", {
+                      className: "text-slate-300 mb-4",
+                      children: t.description,
+                    }),
+                    e.jsx("div", {
+                      className: "flex flex-wrap gap-2 mb-4",
+                      children: t.stack.split(", ").map((o) =>
+                        e.jsx(
+                          "span",
+                          {
+                            className:
+                              "bg-blue-900/50 text-blue-300 text-xs font-medium px-3 py-1 rounded-full",
+                            children: o,
+                          },
+                          o
+                        )
+                      ),
+                    }),
+                    t.link &&
+                      t.link !== "#" &&
+                      e.jsx("a", {
+                        href: t.link,
+                        target: "_blank",
+                        rel: "noopener noreferrer",
+                        className:
+                          "text-cyan-400 hover:text-cyan-300 font-semibold",
+                        children: "Ver más →",
+                      }),
+                  ],
+                }),
+              ],
+            },
+            s
+          )
+        ),
+      }),
+    });
+  },
+  ie = () =>
+    e.jsx(x, {
+      id: "skills",
+      title: "Habilidades Técnicas",
+      icon: $,
+      className: "bg-slate-800/50",
+      children: e.jsx("div", {
+        className: "max-w-5xl mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-8",
+        children: i.skills.map((a, t) =>
+          e.jsxs(
+            "div",
+            {
+              className:
+                "bg-slate-900/70 p-6 rounded-lg shadow-md border border-slate-700 hover:border-cyan-500/50 transition-colors",
+              children: [
+                e.jsx("h3", {
+                  className: "text-xl font-bold text-cyan-400 mb-3",
+                  children: a.category,
+                }),
+                e.jsx("p", {
+                  className: "text-slate-300",
+                  children: a.technologies,
+                }),
+              ],
+            },
+            t
+          )
+        ),
+      }),
+    }),
+  le = () =>
+    e.jsx(x, {
+      id: "education",
+      title: "Educación",
+      icon: B,
+      className: "bg-slate-900",
+      children: e.jsx("div", {
+        className: "max-w-3xl mx-auto space-y-8",
+        children: i.education.map((a, t) =>
+          e.jsxs(
+            "div",
+            {
+              className:
+                "p-6 bg-slate-800/50 rounded-lg shadow-sm border-l-4 border-cyan-500",
+              children: [
+                e.jsx("p", {
+                  className: "text-sm text-slate-400",
+                  children: a.period,
+                }),
+                e.jsx("h3", {
+                  className: "text-xl font-bold text-slate-100 mt-1",
+                  children: a.degree,
+                }),
+                e.jsx("p", {
+                  className: "text-slate-300",
+                  children: a.institution,
+                }),
+              ],
+            },
+            t
+          )
+        ),
+      }),
+    }),
+  ne = () =>
+    e.jsx(x, {
+      id: "contact",
+      title: "Contacto",
+      icon: b,
+      className: "bg-slate-800/50",
+      children: e.jsxs("div", {
+        className: "max-w-3xl mx-auto text-center",
+        children: [
+          e.jsx("p", {
+            className: "text-lg text-slate-300 mb-8",
+            children:
+              "Estoy abierto a nuevas oportunidades y colaboraciones. ¡No dudes en contactarme!",
+          }),
+          e.jsxs("div", {
+            className:
+              "flex flex-col md:flex-row justify-center items-center gap-8 mb-10",
+            children: [
+              e.jsxs("a", {
+                href: `mailto:${i.contact.email}`,
+                className:
+                  "flex items-center gap-3 text-slate-200 hover:text-cyan-400 transition-colors text-lg",
+                children: [
+                  e.jsx(b, { className: "w-6 h-6" }),
+                  e.jsx("span", { children: i.contact.email }),
+                ],
+              }),
+              e.jsxs("div", {
+                className: "flex items-center gap-3 text-slate-200 text-lg",
+                children: [
+                  e.jsx(Z, { className: "w-6 h-6" }),
+                  e.jsx("span", { children: i.contact.phone }),
+                ],
+              }),
+            ],
+          }),
+          e.jsxs("div", {
+            className: "flex justify-center space-x-8",
+            children: [
+              e.jsx("a", {
+                href: i.contact.linkedin,
+                target: "_blank",
+                rel: "noopener noreferrer",
+                className:
+                  "text-slate-400 hover:text-cyan-400 transition-transform transform hover:scale-110",
+                children: e.jsx(R, { size: 32 }),
+              }),
+              e.jsx("a", {
+                href: i.contact.github,
+                target: "_blank",
+                rel: "noopener noreferrer",
+                className:
+                  "text-slate-400 hover:text-cyan-400 transition-transform transform hover:scale-110",
+                children: e.jsx(V, { size: 32 }),
+              }),
+              e.jsx("a", {
+                href: i.contact.instagram,
+                target: "_blank",
+                rel: "noopener noreferrer",
+                className:
+                  "text-slate-400 hover:text-cyan-400 transition-transform transform hover:scale-110",
+                children: e.jsx(G, { size: 32 }),
+              }),
+            ],
+          }),
+        ],
+      }),
+    }),
+  ce = () =>
+    e.jsx("footer", {
+      className: "bg-slate-900 text-center py-8 border-t border-slate-800",
+      children: e.jsxs("p", {
+        className: "text-slate-500",
+        children: [
+          "© ",
+          new Date().getFullYear(),
+          " ",
+          i.name,
+          ". Todos los derechos reservados.",
+        ],
+      }),
+    });
+function me() {
+  const [a, t] = d.useState(!1),
+    [s, o] = d.useState("home"),
+    [c, n] = d.useState(!1);
+  d.useEffect(() => {
+    const r = document.querySelectorAll("section[id]"),
+      m = () => {
+        const p = window.pageYOffset;
+        n(p > 10);
+        let u = "home";
+        p < window.innerHeight * 0.7
+          ? (u = "home")
+          : r.forEach((y) => {
+              const k = y.offsetHeight,
+                f = y.offsetTop - 100;
+              p >= f && p < f + k && (u = y.getAttribute("id"));
+            }),
+          o(u);
+      };
+    return (
+      window.addEventListener("scroll", m, { passive: !0 }),
+      () => window.removeEventListener("scroll", m)
+    );
+  }, []);
+  const h = () => {
+    t(!a);
+  };
+  return e.jsxs("div", {
+    className:
+      "bg-slate-900 text-slate-200 font-sans leading-normal tracking-tight selection:bg-cyan-300 selection:text-cyan-900",
+    children: [
+      e.jsx(ae, {
+        onMenuToggle: h,
+        isMenuOpen: a,
+        activeSection: s,
+        isScrolled: c,
+      }),
+      e.jsxs("main", {
+        children: [
+          e.jsx(te, {}),
+          e.jsx(se, {}),
+          e.jsx(oe, {}),
+          e.jsx(re, {}),
+          e.jsx(ie, {}),
+          e.jsx(le, {}),
+          e.jsx(ne, {}),
+        ],
+      }),
+      e.jsx(ce, {}),
+    ],
+  });
+}
+export { me as default };
