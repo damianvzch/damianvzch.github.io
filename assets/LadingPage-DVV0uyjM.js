@@ -98,12 +98,12 @@ import { r as d, j as e } from "./index-BCi4c7TJ.js";
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */ const _ = [
-    ["path", { d: "M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16", key: "jecpp" }],
-    [
-      "rect",
-      { width: "20", height: "14", x: "2", y: "6", rx: "2", key: "i6l2r4" },
-    ],
+  ["path", { d: "M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16", key: "jecpp" }],
+  [
+    "rect",
+    { width: "20", height: "14", x: "2", y: "6", rx: "2", key: "i6l2r4" },
   ],
+],
   w = l("briefcase", _);
 /**
  * @license lucide-react v0.525.0 - ISC
@@ -111,9 +111,9 @@ import { r as d, j as e } from "./index-BCi4c7TJ.js";
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */ const D = [
-    ["path", { d: "m7 6 5 5 5-5", key: "1lc07p" }],
-    ["path", { d: "m7 13 5 5 5-5", key: "1d48rs" }],
-  ],
+  ["path", { d: "m7 6 5 5 5-5", key: "1lc07p" }],
+  ["path", { d: "m7 13 5 5 5-5", key: "1d48rs" }],
+],
   E = l("chevrons-down", D);
 /**
  * @license lucide-react v0.525.0 - ISC
@@ -121,9 +121,9 @@ import { r as d, j as e } from "./index-BCi4c7TJ.js";
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */ const L = [
-    ["path", { d: "m16 18 6-6-6-6", key: "eg8j8" }],
-    ["path", { d: "m8 6-6 6 6 6", key: "ppft3o" }],
-  ],
+  ["path", { d: "m16 18 6-6-6-6", key: "eg8j8" }],
+  ["path", { d: "m8 6-6 6 6 6", key: "ppft3o" }],
+],
   N = l("code", L);
 /**
  * @license lucide-react v0.525.0 - ISC
@@ -131,27 +131,27 @@ import { r as d, j as e } from "./index-BCi4c7TJ.js";
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */ const z = [
-    ["path", { d: "M12 20v2", key: "1lh1kg" }],
-    ["path", { d: "M12 2v2", key: "tus03m" }],
-    ["path", { d: "M17 20v2", key: "1rnc9c" }],
-    ["path", { d: "M17 2v2", key: "11trls" }],
-    ["path", { d: "M2 12h2", key: "1t8f8n" }],
-    ["path", { d: "M2 17h2", key: "7oei6x" }],
-    ["path", { d: "M2 7h2", key: "asdhe0" }],
-    ["path", { d: "M20 12h2", key: "1q8mjw" }],
-    ["path", { d: "M20 17h2", key: "1fpfkl" }],
-    ["path", { d: "M20 7h2", key: "1o8tra" }],
-    ["path", { d: "M7 20v2", key: "4gnj0m" }],
-    ["path", { d: "M7 2v2", key: "1i4yhu" }],
-    [
-      "rect",
-      { x: "4", y: "4", width: "16", height: "16", rx: "2", key: "1vbyd7" },
-    ],
-    [
-      "rect",
-      { x: "8", y: "8", width: "8", height: "8", rx: "1", key: "z9xiuo" },
-    ],
+  ["path", { d: "M12 20v2", key: "1lh1kg" }],
+  ["path", { d: "M12 2v2", key: "tus03m" }],
+  ["path", { d: "M17 20v2", key: "1rnc9c" }],
+  ["path", { d: "M17 2v2", key: "11trls" }],
+  ["path", { d: "M2 12h2", key: "1t8f8n" }],
+  ["path", { d: "M2 17h2", key: "7oei6x" }],
+  ["path", { d: "M2 7h2", key: "asdhe0" }],
+  ["path", { d: "M20 12h2", key: "1q8mjw" }],
+  ["path", { d: "M20 17h2", key: "1fpfkl" }],
+  ["path", { d: "M20 7h2", key: "1o8tra" }],
+  ["path", { d: "M7 20v2", key: "4gnj0m" }],
+  ["path", { d: "M7 2v2", key: "1i4yhu" }],
+  [
+    "rect",
+    { x: "4", y: "4", width: "16", height: "16", rx: "2", key: "1vbyd7" },
   ],
+  [
+    "rect",
+    { x: "8", y: "8", width: "8", height: "8", rx: "1", key: "z9xiuo" },
+  ],
+],
   $ = l("cpu", z);
 /**
  * @license lucide-react v0.525.0 - ISC
@@ -159,10 +159,10 @@ import { r as d, j as e } from "./index-BCi4c7TJ.js";
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */ const I = [
-    ["path", { d: "M12 15V3", key: "m9g1x1" }],
-    ["path", { d: "M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4", key: "ih7n3h" }],
-    ["path", { d: "m7 10 5 5 5-5", key: "brsn70" }],
-  ],
+  ["path", { d: "M12 15V3", key: "m9g1x1" }],
+  ["path", { d: "M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4", key: "ih7n3h" }],
+  ["path", { d: "m7 10 5 5 5-5", key: "brsn70" }],
+],
   T = l("download", I);
 /**
  * @license lucide-react v0.525.0 - ISC
@@ -170,15 +170,15 @@ import { r as d, j as e } from "./index-BCi4c7TJ.js";
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */ const H = [
-    [
-      "path",
-      {
-        d: "M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4",
-        key: "tonef",
-      },
-    ],
-    ["path", { d: "M9 18c-4.51 2-5-2-7-2", key: "9comsn" }],
+  [
+    "path",
+    {
+      d: "M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4",
+      key: "tonef",
+    },
   ],
+  ["path", { d: "M9 18c-4.51 2-5-2-7-2", key: "9comsn" }],
+],
   V = l("github", H);
 /**
  * @license lucide-react v0.525.0 - ISC
@@ -186,16 +186,16 @@ import { r as d, j as e } from "./index-BCi4c7TJ.js";
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */ const q = [
-    [
-      "path",
-      {
-        d: "M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z",
-        key: "j76jl0",
-      },
-    ],
-    ["path", { d: "M22 10v6", key: "1lu8f3" }],
-    ["path", { d: "M6 12.5V16a6 3 0 0 0 12 0v-3.5", key: "1r8lef" }],
+  [
+    "path",
+    {
+      d: "M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z",
+      key: "j76jl0",
+    },
   ],
+  ["path", { d: "M22 10v6", key: "1lu8f3" }],
+  ["path", { d: "M6 12.5V16a6 3 0 0 0 12 0v-3.5", key: "1r8lef" }],
+],
   B = l("graduation-cap", q);
 /**
  * @license lucide-react v0.525.0 - ISC
@@ -203,24 +203,24 @@ import { r as d, j as e } from "./index-BCi4c7TJ.js";
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */ const F = [
-    [
-      "rect",
-      {
-        width: "20",
-        height: "20",
-        x: "2",
-        y: "2",
-        rx: "5",
-        ry: "5",
-        key: "2e1cvw",
-      },
-    ],
-    [
-      "path",
-      { d: "M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z", key: "9exkf1" },
-    ],
-    ["line", { x1: "17.5", x2: "17.51", y1: "6.5", y2: "6.5", key: "r4j83e" }],
+  [
+    "rect",
+    {
+      width: "20",
+      height: "20",
+      x: "2",
+      y: "2",
+      rx: "5",
+      ry: "5",
+      key: "2e1cvw",
+    },
   ],
+  [
+    "path",
+    { d: "M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z", key: "9exkf1" },
+  ],
+  ["line", { x1: "17.5", x2: "17.51", y1: "6.5", y2: "6.5", key: "r4j83e" }],
+],
   G = l("instagram", F);
 /**
  * @license lucide-react v0.525.0 - ISC
@@ -228,16 +228,16 @@ import { r as d, j as e } from "./index-BCi4c7TJ.js";
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */ const Q = [
-    [
-      "path",
-      {
-        d: "M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z",
-        key: "c2jq9f",
-      },
-    ],
-    ["rect", { width: "4", height: "12", x: "2", y: "9", key: "mk3on5" }],
-    ["circle", { cx: "4", cy: "4", r: "2", key: "bt5ra8" }],
+  [
+    "path",
+    {
+      d: "M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z",
+      key: "c2jq9f",
+    },
   ],
+  ["rect", { width: "4", height: "12", x: "2", y: "9", key: "mk3on5" }],
+  ["circle", { cx: "4", cy: "4", r: "2", key: "bt5ra8" }],
+],
   R = l("linkedin", Q);
 /**
  * @license lucide-react v0.525.0 - ISC
@@ -245,12 +245,12 @@ import { r as d, j as e } from "./index-BCi4c7TJ.js";
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */ const U = [
-    ["path", { d: "m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7", key: "132q7q" }],
-    [
-      "rect",
-      { x: "2", y: "4", width: "20", height: "16", rx: "2", key: "izxlao" },
-    ],
+  ["path", { d: "m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7", key: "132q7q" }],
+  [
+    "rect",
+    { x: "2", y: "4", width: "20", height: "16", rx: "2", key: "izxlao" },
   ],
+],
   b = l("mail", U);
 /**
  * @license lucide-react v0.525.0 - ISC
@@ -258,15 +258,15 @@ import { r as d, j as e } from "./index-BCi4c7TJ.js";
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */ const J = [
-    [
-      "path",
-      {
-        d: "M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0",
-        key: "1r0f0z",
-      },
-    ],
-    ["circle", { cx: "12", cy: "10", r: "3", key: "ilqhr7" }],
+  [
+    "path",
+    {
+      d: "M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0",
+      key: "1r0f0z",
+    },
   ],
+  ["circle", { cx: "12", cy: "10", r: "3", key: "ilqhr7" }],
+],
   O = l("map-pin", J);
 /**
  * @license lucide-react v0.525.0 - ISC
@@ -274,10 +274,10 @@ import { r as d, j as e } from "./index-BCi4c7TJ.js";
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */ const W = [
-    ["path", { d: "M4 12h16", key: "1lakjw" }],
-    ["path", { d: "M4 18h16", key: "19g7jn" }],
-    ["path", { d: "M4 6h16", key: "1o0s65" }],
-  ],
+  ["path", { d: "M4 12h16", key: "1lakjw" }],
+  ["path", { d: "M4 18h16", key: "19g7jn" }],
+  ["path", { d: "M4 6h16", key: "1o0s65" }],
+],
   X = l("menu", W);
 /**
  * @license lucide-react v0.525.0 - ISC
@@ -285,14 +285,14 @@ import { r as d, j as e } from "./index-BCi4c7TJ.js";
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */ const Y = [
-    [
-      "path",
-      {
-        d: "M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384",
-        key: "9njp5v",
-      },
-    ],
+  [
+    "path",
+    {
+      d: "M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384",
+      key: "9njp5v",
+    },
   ],
+],
   Z = l("phone", Y);
 /**
  * @license lucide-react v0.525.0 - ISC
@@ -300,9 +300,9 @@ import { r as d, j as e } from "./index-BCi4c7TJ.js";
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */ const K = [
-    ["path", { d: "M18 6 6 18", key: "1bl5f8" }],
-    ["path", { d: "m6 6 12 12", key: "d8bk6v" }],
-  ],
+  ["path", { d: "M18 6 6 18", key: "1bl5f8" }],
+  ["path", { d: "m6 6 12 12", key: "d8bk6v" }],
+],
   ee = l("x", K),
   i = {
     name: "Damián Vásquez",
@@ -503,11 +503,11 @@ import { r as d, j as e } from "./index-BCi4c7TJ.js";
       },
     ],
     education: [
-      {
-        degree: "Maestría en Administración de Negocios (MBA)",
-        institution: "Universidad César Vallejo",
-        period: "2024 - Actualidad",
-      },
+      // {
+      //   degree: "Maestría en Administración de Negocios (MBA)",
+      //   institution: "Universidad César Vallejo",
+      //   period: "2024 - Actualidad",
+      // },
       {
         degree: "Título Profesional de Ingeniero de Sistemas",
         institution: "Universidad César Vallejo",
@@ -548,24 +548,23 @@ import { r as d, j as e } from "./index-BCi4c7TJ.js";
     isScrolled: o,
   }) => {
     const c = [
-        { id: "about", title: "Sobre Mí" },
-        { id: "experience", title: "Experiencia" },
-        { id: "projects", title: "Proyectos" },
-        { id: "skills", title: "Habilidades" },
-        { id: "education", title: "Educación" },
-        { id: "contact", title: "Contacto" },
-      ],
+      { id: "about", title: "Sobre Mí" },
+      { id: "experience", title: "Experiencia" },
+      { id: "projects", title: "Proyectos" },
+      { id: "skills", title: "Habilidades" },
+      { id: "education", title: "Educación" },
+      { id: "contact", title: "Contacto" },
+    ],
       n = (r) => `
     text-lg font-medium transition-colors duration-300
     ${s === r ? "text-cyan-400" : "text-slate-300 hover:text-cyan-400"}
   `,
       h = `
     fixed top-0 left-0 right-0 z-50 transition-all duration-300
-    ${
-      o
-        ? "bg-slate-900/70 backdrop-blur-lg shadow-lg shadow-black/20"
-        : "bg-transparent shadow-none"
-    }
+    ${o
+          ? "bg-slate-900/70 backdrop-blur-lg shadow-lg shadow-black/20"
+          : "bg-transparent shadow-none"
+        }
   `;
     return e.jsxs("header", {
       className: h,
@@ -606,26 +605,26 @@ import { r as d, j as e } from "./index-BCi4c7TJ.js";
           }),
         }),
         t &&
-          e.jsx("div", {
-            className: "md:hidden bg-slate-900",
-            children: e.jsx("nav", {
-              className: "flex flex-col items-center space-y-6 py-6",
-              children: c.map((r) =>
-                e.jsx(
-                  "a",
-                  {
-                    href: `#${r.id}`,
-                    onClick: (m) => {
-                      g(m), a();
-                    },
-                    className: n(r.id),
-                    children: r.title,
+        e.jsx("div", {
+          className: "md:hidden bg-slate-900",
+          children: e.jsx("nav", {
+            className: "flex flex-col items-center space-y-6 py-6",
+            children: c.map((r) =>
+              e.jsx(
+                "a",
+                {
+                  href: `#${r.id}`,
+                  onClick: (m) => {
+                    g(m), a();
                   },
-                  r.id
-                )
-              ),
-            }),
+                  className: n(r.id),
+                  children: r.title,
+                },
+                r.id
+              )
+            ),
           }),
+        }),
       ],
     });
   },
@@ -755,39 +754,37 @@ import { r as d, j as e } from "./index-BCi4c7TJ.js";
               className: "flex flex-col md:flex-row items-center w-full gap-8",
               children: [
                 e.jsx("div", {
-                  className: `w-full md:w-1/2 ${
-                    t % 2 !== 0 ? "md:order-2" : ""
-                  }`,
+                  className: `w-full md:w-1/2 ${t % 2 !== 0 ? "md:order-2" : ""
+                    }`,
                   children: e.jsx("div", {
                     className:
                       "rounded-lg shadow-2xl shadow-black/30 overflow-hidden bg-slate-700 aspect-video transition-all duration-300 hover:scale-105 hover:shadow-cyan-500/20",
                     children:
                       a.media.type === "image"
                         ? e.jsx("img", {
-                            src: a.media.src,
-                            alt: `${a.company} project`,
-                            className: "w-full h-full object-cover",
-                            onError: (s) => {
-                              (s.target.onerror = null),
-                                (s.target.src =
-                                  "https://placehold.co/600x400/0f172a/ff0000?text=Error");
-                            },
-                          })
+                          src: a.media.src,
+                          alt: `${a.company} project`,
+                          className: "w-full h-full object-cover",
+                          onError: (s) => {
+                            (s.target.onerror = null),
+                              (s.target.src =
+                                "https://placehold.co/600x400/0f172a/ff0000?text=Error");
+                          },
+                        })
                         : e.jsx("iframe", {
-                            className: "w-full h-full",
-                            src: a.media.src,
-                            title: `Video for ${a.company}`,
-                            frameBorder: "0",
-                            allow:
-                              "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
-                            allowFullScreen: !0,
-                          }),
+                          className: "w-full h-full",
+                          src: a.media.src,
+                          title: `Video for ${a.company}`,
+                          frameBorder: "0",
+                          allow:
+                            "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
+                          allowFullScreen: !0,
+                        }),
                   }),
                 }),
                 e.jsxs("div", {
-                  className: `w-full md:w-1/2 ${
-                    t % 2 !== 0 ? "md:order-1" : ""
-                  }`,
+                  className: `w-full md:w-1/2 ${t % 2 !== 0 ? "md:order-1" : ""
+                    }`,
                   children: [
                     e.jsx("p", {
                       className: "text-sm text-cyan-400 font-semibold",
@@ -850,9 +847,8 @@ import { r as d, j as e } from "./index-BCi4c7TJ.js";
           e.jsxs(
             "div",
             {
-              className: `bg-slate-800/50 rounded-xl shadow-lg overflow-hidden group transform hover:-translate-y-2 transition-transform duration-300 border border-slate-700 hover:border-blue-500/50 hover:shadow-2xl hover:shadow-blue-500/10 ${
-                a ? "max-w-3xl" : ""
-              }`,
+              className: `bg-slate-800/50 rounded-xl shadow-lg overflow-hidden group transform hover:-translate-y-2 transition-transform duration-300 border border-slate-700 hover:border-blue-500/50 hover:shadow-2xl hover:shadow-blue-500/10 ${a ? "max-w-3xl" : ""
+                }`,
               children: [
                 e.jsx("div", {
                   className:
@@ -860,24 +856,24 @@ import { r as d, j as e } from "./index-BCi4c7TJ.js";
                   children:
                     t.media.type === "image"
                       ? e.jsx("img", {
-                          src: t.media.src,
-                          alt: t.title,
-                          className: "w-full h-full object-cover",
-                          onError: (o) => {
-                            (o.target.onerror = null),
-                              (o.target.src =
-                                "https://placehold.co/600x400/1e40af/ff0000?text=Error");
-                          },
-                        })
+                        src: t.media.src,
+                        alt: t.title,
+                        className: "w-full h-full object-cover",
+                        onError: (o) => {
+                          (o.target.onerror = null),
+                            (o.target.src =
+                              "https://placehold.co/600x400/1e40af/ff0000?text=Error");
+                        },
+                      })
                       : e.jsx("iframe", {
-                          className: "w-full h-full",
-                          src: t.media.src,
-                          title: `Video for ${t.title}`,
-                          frameBorder: "0",
-                          allow:
-                            "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
-                          allowFullScreen: !0,
-                        }),
+                        className: "w-full h-full",
+                        src: t.media.src,
+                        title: `Video for ${t.title}`,
+                        frameBorder: "0",
+                        allow:
+                          "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
+                        allowFullScreen: !0,
+                      }),
                 }),
                 e.jsxs("div", {
                   className: "p-6",
@@ -909,15 +905,15 @@ import { r as d, j as e } from "./index-BCi4c7TJ.js";
                       ),
                     }),
                     t.link &&
-                      t.link !== "#" &&
-                      e.jsx("a", {
-                        href: t.link,
-                        target: "_blank",
-                        rel: "noopener noreferrer",
-                        className:
-                          "text-cyan-400 hover:text-cyan-300 font-semibold",
-                        children: "Ver más →",
-                      }),
+                    t.link !== "#" &&
+                    e.jsx("a", {
+                      href: t.link,
+                      target: "_blank",
+                      rel: "noopener noreferrer",
+                      className:
+                        "text-cyan-400 hover:text-cyan-300 font-semibold",
+                      children: "Ver más →",
+                    }),
                   ],
                 }),
               ],
@@ -1087,10 +1083,10 @@ function me() {
         p < window.innerHeight * 0.7
           ? (u = "home")
           : r.forEach((y) => {
-              const k = y.offsetHeight,
-                f = y.offsetTop - 100;
-              p >= f && p < f + k && (u = y.getAttribute("id"));
-            }),
+            const k = y.offsetHeight,
+              f = y.offsetTop - 100;
+            p >= f && p < f + k && (u = y.getAttribute("id"));
+          }),
           o(u);
       };
     return (
