@@ -451,12 +451,12 @@ import { r as d, j as e } from "./index-BCi4c7TJ.js";
     projects: [
       {
         title: "PetGreat",
-        company: "petgreat.pe",
+        company: "petgreat.net",
         year: "2025 - Actualidad",
         description:
           "Plataforma integral para centralizar servicios para mascotas. Desarrollé el ecosistema de gestión médica y de servicios, integrando almacenamiento escalable para expedientes digitales y una interfaz orientada a la experiencia del usuario.",
         stack: "React, Node.js (Express), PHP, MySQL, S3 (AWS), Google Cloud",
-        link: "https://petgreat.pe",
+        link: "https://petgreat.net",
         media: {
           type: "image",
           src: "/Macbook-Air-PetGreat.png",
