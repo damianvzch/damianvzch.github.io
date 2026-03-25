@@ -363,13 +363,13 @@ import { r as d, j as e } from "./index-BCi4c7TJ.js";
         },
       },
       {
-        role: "Fundador & Desarrollador Full Stack (Freelance)",
-        company: "Pet Great",
+        role: "Desarrollador Full Stack & Emprendedor (Freelance)",
+        company: "Independiente / Freelance",
         period: "Ene. 2025 - Actualidad",
         location: "Tarapoto, Perú",
         description:
-          "Conceptualicé, diseñé y estoy desarrollando 'Pet Great', una plataforma digital todo-en-uno para centralizar servicios para mascotas. Lidero el ciclo de vida completo del producto, desde la idea y la arquitectura hasta la implementación y el próximo lanzamiento.",
-        stack: "React, Node.js (Express), PHP, MySQL, VPS, Google Cloud",
+          "Lidero el diseño y desarrollo de soluciones digitales a medida para clientes y el ecosistema de startups. Durante este periodo, he gestionado el ciclo de vida completo de productos como PetGreat, Ark y Niba's, enfocándome en arquitecturas robustas y despliegues eficientes en la nube.",
+        stack: "AWS S3, React, Node.js (Express), PHP, MySQL, Google Cloud",
         media: { type: "image", src: "/Macbook-Air-PetGreat.png" },
       },
       {
@@ -450,12 +450,25 @@ import { r as d, j as e } from "./index-BCi4c7TJ.js";
     ],
     projects: [
       {
+        title: "PetGreat",
+        company: "petgreat.pe",
+        year: "2025 - Actualidad",
+        description:
+          "Plataforma integral para centralizar servicios para mascotas. Desarrollé el ecosistema de gestión médica y de servicios, integrando almacenamiento escalable para expedientes digitales y una interfaz orientada a la experiencia del usuario.",
+        stack: "React, Node.js (Express), PHP, MySQL, S3 (AWS), Google Cloud",
+        link: "https://petgreat.pe",
+        media: {
+          type: "image",
+          src: "/Macbook-Air-PetGreat.png",
+        },
+      },
+      {
         title: "Ark (asesorías 3d)",
         company: "arkasesorias3d.com",
         year: "2026",
         description:
-          "Asesoría independiente para arquitectura en Piura, Perú. Desarrollé una landing page y panel administrativo para la gestión de cursos, integrando botones de llamado a la acción y un diseño basado en la identidad corporativa de la marca.",
-        stack: "React, Laravel, MySQL",
+          "Asesoría independiente para arquitectura en Piura, Perú. Desarrollé una landing page y panel administrativo para la gestión de cursos, integrando botones de llamado a la acción y almacenamiento en la nube para recursos digitales.",
+        stack: "React, Laravel, MySQL, S3 (AWS)",
         link: "https://arkasesorias3d.com",
         media: {
           type: "image",
@@ -467,8 +480,8 @@ import { r as d, j as e } from "./index-BCi4c7TJ.js";
         company: "nibaspostres.com",
         year: "2025 - 2026",
         description:
-          "Sistema integral para cafetería que incluye landing page, carta digital dinámica con control de stock, libro de reclamaciones y consulta de comprobantes. Desarrollé el ecosistema administrativo para ventas, caja, reportes y facturación electrónica conectada a la SUNAT.",
-        stack: "React, Django, PostgreSQL",
+          "Sistema integral para cafetería que incluye landing page, carta digital dinámica, libro de reclamaciones y consulta de comprobantes. Implementé el ecosistema administrativo completo con facturación electrónica y almacenamiento en la nube.",
+        stack: "React, Django, PostgreSQL, S3 (AWS)",
         link: "https://nibaspostres.com",
         media: {
           type: "image",
