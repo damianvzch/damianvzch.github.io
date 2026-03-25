@@ -450,6 +450,32 @@ import { r as d, j as e } from "./index-BCi4c7TJ.js";
     ],
     projects: [
       {
+        title: "Ark (asesorías 3d)",
+        company: "arkasesorias3d.com",
+        year: "2026",
+        description:
+          "Asesoría independiente para arquitectura en Piura, Perú. Desarrollé una landing page y panel administrativo para la gestión de cursos, integrando botones de llamado a la acción y un diseño basado en la identidad corporativa de la marca.",
+        stack: "React, Laravel, MySQL",
+        link: "https://arkasesorias3d.com",
+        media: {
+          type: "image",
+          src: "/ark3d.png",
+        },
+      },
+      {
+        title: "Niba's Postres y café",
+        company: "nibaspostres.com",
+        year: "2025 - 2026",
+        description:
+          "Sistema integral para cafetería que incluye landing page, carta digital dinámica con control de stock, libro de reclamaciones y consulta de comprobantes. Desarrollé el ecosistema administrativo para ventas, caja, reportes y facturación electrónica conectada a la SUNAT.",
+        stack: "React, Django, PostgreSQL",
+        link: "https://nibaspostres.com",
+        media: {
+          type: "image",
+          src: "/nibas.png",
+        },
+      },
+      {
         title: "Control vehicular para el estacionamiento",
         company: "Universidad César Vallejo",
         year: "2024",
