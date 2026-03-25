@@ -305,9 +305,9 @@ import { r as d, j as e } from "./index-BCi4c7TJ.js";
 ],
   ee = l("x", K),
   i = {
-    name: "Damián Vásquez",
+    name: "Miguel Vásquez",
     title: "Ingeniero de Sistemas | Desarrollador Full Stack",
-    location: "Tarapoto, Perú",
+    location: "Tarapoto, San Martín - Perú",
     contact: {
       email: "damianvzch@gmail.com",
       phone: "+51 955 205 699",
@@ -708,6 +708,25 @@ import { r as d, j as e } from "./index-BCi4c7TJ.js";
                         "absolute top-0 left-0 w-full h-full bg-white opacity-20 group-hover:opacity-0 transition-opacity duration-300",
                     }),
                     "Conoce más sobre mí",
+                  ],
+                }),
+                e.jsxs("a", {
+                  href: "https://wa.me/51955205699",
+                  target: "_blank",
+                  rel: "noopener noreferrer",
+                  className:
+                    "group relative inline-flex items-center justify-center gap-3 px-8 py-4 bg-transparent border-2 border-green-500 text-white font-bold rounded-full overflow-hidden transition-all duration-300 transform hover:scale-105 hover:bg-green-500/20 w-full sm:w-auto",
+                  style: { borderColor: "#25D366" },
+                  children: [
+                    e.jsx("svg", {
+                      viewBox: "0 0 24 24",
+                      fill: "currentColor",
+                      className: "w-5 h-5",
+                      children: e.jsx("path", {
+                        d: "M12.031 2c-5.514 0-9.968 4.455-9.968 9.968 0 1.764.461 3.42 1.264 4.86L2 22.029l5.352-1.405c1.402.766 2.997 1.205 4.679 1.205 5.514 0 9.968-4.455 9.968-9.968S17.545 2 12.031 2zm6.182 14.122c-.256.718-1.492 1.306-2.059 1.388-.514.074-1.183.136-3.737-.91-3.264-1.336-5.368-4.654-5.531-4.87-.163-.217-1.328-1.766-1.328-3.368 0-1.604.836-2.396 1.134-2.722.256-.28.68-.42.98-.42.094 0 .178.004.256.008.232.008.348.019.502.502.191.597.653 1.594.71 1.708.056.113.094.244.019.394-.075.147-.113.244-.226.376-.113.13-.236.292-.338.406-.113.132-.23.275-.098.502.132.227.585 1.096 1.26 1.696.866.772 1.598 1.012 1.826 1.125.227.113.361.094.496-.056.136-.15.586-.684.743-.918.158-.236.315-.195.53-.113.21.082 1.334.63 1.56.743.226.113.376.168.432.256.056.094.056.544-.203 1.262z",
+                      }),
+                    }),
+                    e.jsx("span", { children: "WhatsApp" }),
                   ],
                 }),
                 e.jsxs("a", {
@@ -1135,28 +1154,6 @@ function me() {
         ],
       }),
       e.jsx(ce, {}),
-      e.jsx("a", {
-        href: "https://wa.me/51955205699",
-        target: "_blank",
-        rel: "noopener noreferrer",
-        className:
-          "fixed bottom-6 right-6 z-[9999] text-white p-4 rounded-full shadow-2xl hover:scale-110 transition-transform duration-300 flex items-center justify-center",
-        style: {
-          backgroundColor: "#25D366",
-          width: "60px",
-          height: "60px",
-          boxShadow: "0 10px 25px -5px rgba(0, 0, 0, 0.3)",
-        },
-        "aria-label": "Contactar por WhatsApp",
-        children: e.jsx("svg", {
-          viewBox: "0 0 24 24",
-          fill: "currentColor",
-          style: { width: "32px", height: "32px" },
-          children: e.jsx("path", {
-            d: "M12.031 2c-5.514 0-9.968 4.455-9.968 9.968 0 1.764.461 3.42 1.264 4.86L2 22.029l5.352-1.405c1.402.766 2.997 1.205 4.679 1.205 5.514 0 9.968-4.455 9.968-9.968S17.545 2 12.031 2zm6.182 14.122c-.256.718-1.492 1.306-2.059 1.388-.514.074-1.183.136-3.737-.91-3.264-1.336-5.368-4.654-5.531-4.87-.163-.217-1.328-1.766-1.328-3.368 0-1.604.836-2.396 1.134-2.722.256-.28.68-.42.98-.42.094 0 .178.004.256.008.232.008.348.019.502.502.191.597.653 1.594.71 1.708.056.113.094.244.019.394-.075.147-.113.244-.226.376-.113.13-.236.292-.338.406-.113.132-.23.275-.098.502.132.227.585 1.096 1.26 1.696.866.772 1.598 1.012 1.826 1.125.227.113.361.094.496-.056.136-.15.586-.684.743-.918.158-.236.315-.195.53-.113.21.082 1.334.63 1.56.743.226.113.376.168.432.256.056.094.056.544-.203 1.262z",
-          }),
-        }),
-      }),
     ],
   });
 }
