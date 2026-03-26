@@ -678,7 +678,7 @@ import { r as d, j as e } from "./index-BCi4c7TJ.js";
           children: [
             e.jsx("h1", {
               className:
-                "text-5xl md:text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-slate-100 to-slate-400 mb-4",
+                "text-5xl md:text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-slate-100 to-slate-400 mb-4 pb-2",
               children: i.name,
             }),
             e.jsx("p", {
@@ -697,19 +697,6 @@ import { r as d, j as e } from "./index-BCi4c7TJ.js";
               className:
                 "flex flex-col sm:flex-row items-center justify-center gap-6",
               children: [
-                e.jsxs("a", {
-                  href: "#about",
-                  onClick: g,
-                  className:
-                    "group relative inline-block px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-500 text-white font-bold rounded-full overflow-hidden transition-all duration-300 transform hover:scale-105 shadow-lg shadow-blue-500/30 w-full sm:w-auto text-center",
-                  children: [
-                    e.jsx("span", {
-                      className:
-                        "absolute top-0 left-0 w-full h-full bg-white opacity-20 group-hover:opacity-0 transition-opacity duration-300",
-                    }),
-                    "Conoce más sobre mí",
-                  ],
-                }),
                 e.jsxs("a", {
                   href: "https://wa.me/51955205699",
                   target: "_blank",
