@@ -305,7 +305,7 @@ import { r as d, j as e } from "./index-BCi4c7TJ.js";
 ],
   ee = l("x", K),
   i = {
-    name: "Miguel Vásquez",
+    name: "Damián Vásquez",
     title: "Ingeniero de Sistemas | Desarrollador Full Stack",
     location: "Tarapoto, San Martín - Perú",
     contact: {
@@ -450,6 +450,19 @@ import { r as d, j as e } from "./index-BCi4c7TJ.js";
     ],
     projects: [
       {
+        title: "Niba's Postres y café",
+        company: "nibaspostres.com",
+        year: "2025 - 2026",
+        description:
+          "Sistema integral para cafetería que incluye landing page, carta digital dinámica, libro de reclamaciones y consulta de comprobantes. Implementé el ecosistema administrativo completo con facturación electrónica y almacenamiento en la nube.",
+        stack: "React, Django, PostgreSQL, S3 (AWS)",
+        link: "https://nibaspostres.com",
+        media: {
+          type: "image",
+          src: "/nibas.png",
+        },
+      },
+      {
         title: "PetGreat",
         company: "petgreat.net",
         year: "2025 - Actualidad",
@@ -473,19 +486,6 @@ import { r as d, j as e } from "./index-BCi4c7TJ.js";
         media: {
           type: "image",
           src: "/ark3d.png",
-        },
-      },
-      {
-        title: "Niba's Postres y café",
-        company: "nibaspostres.com",
-        year: "2025 - 2026",
-        description:
-          "Sistema integral para cafetería que incluye landing page, carta digital dinámica, libro de reclamaciones y consulta de comprobantes. Implementé el ecosistema administrativo completo con facturación electrónica y almacenamiento en la nube.",
-        stack: "React, Django, PostgreSQL, S3 (AWS)",
-        link: "https://nibaspostres.com",
-        media: {
-          type: "image",
-          src: "/nibas.png",
         },
       },
       {
@@ -516,11 +516,6 @@ import { r as d, j as e } from "./index-BCi4c7TJ.js";
       },
     ],
     education: [
-      // {
-      //   degree: "Maestría en Administración de Negocios (MBA)",
-      //   institution: "Universidad César Vallejo",
-      //   period: "2024 - Actualidad",
-      // },
       {
         degree: "Título Profesional de Ingeniero de Sistemas",
         institution: "Universidad César Vallejo",
