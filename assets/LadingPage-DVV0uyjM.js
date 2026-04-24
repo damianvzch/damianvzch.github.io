@@ -306,7 +306,7 @@ import { r as d, j as e } from "./index-BCi4c7TJ.js";
   ee = l("x", K),
   i = {
     name: "Damián Vásquez",
-    title: "Ingeniero de Sistemas | Desarrollador Full Stack",
+    title: "Ingeniero de Sistemas | Analista Programador",
     location: "Tarapoto, San Martín - Perú",
     contact: {
       email: "damianvzch@gmail.com",
@@ -363,7 +363,7 @@ import { r as d, j as e } from "./index-BCi4c7TJ.js";
         },
       },
       {
-        role: "Desarrollador Full Stack & Emprendedor (Freelance)",
+        role: "Analista Programador & Emprendedor (Freelance)",
         company: "Independiente / Freelance",
         period: "Ene. 2025 - Actualidad",
         location: "Tarapoto, Perú",
