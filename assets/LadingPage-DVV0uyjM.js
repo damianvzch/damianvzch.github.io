@@ -306,7 +306,7 @@ import { r as d, j as e } from "./index-BCi4c7TJ.js";
   ee = l("x", K),
   i = {
     name: "Damián Vásquez",
-    title: "Ingeniero de Sistemas | Analista Programador",
+    title: "Ingeniero de Sistemas | Desarrollador de Software",
     location: "Tarapoto, San Martín - Perú",
     contact: {
       email: "damianvzch@gmail.com",
@@ -316,83 +316,84 @@ import { r as d, j as e } from "./index-BCi4c7TJ.js";
       instagram: "https://www.instagram.com/damianvzch",
     },
     summary:
-      "Ingeniero de Sistemas con más de 5 años de trayectoria en el desarrollo de software. Poseo experiencia integrando ecosistemas tecnológicos como PHP, JavaScript, Python, C# y Java, enfocándome en la modernización de sistemas empresariales. Comprometido con la escritura de código limpio bajo principios SOLID, busco contribuir al éxito de los proyectos mediante el aprendizaje continuo, la colaboración técnica y el despliegue eficiente en la nube.",
+      "Ingeniero de Sistemas y desarrollador autodidacta con más de 5 años de experiencia creando soluciones de software de extremo a extremo. Disfruto enfrentando problemas complejos y transformándolos en sistemas escalables bajo principios SOLID y arquitecturas limpias. Poseo un fuerte enfoque en la empatía hacia el usuario final, la comunicación transparente y el trabajo en equipo. Con sólida experiencia integrando tecnologías modernas y automatizando flujos CI/CD, me adapto rápidamente a las nuevas metodologías, integrando herramientas de Inteligencia Artificial para optimizar el ciclo de desarrollo y resolución de problemas. Busco aportar valor a los proyectos manteniendo una actitud colaborativa y siempre dispuesto a compartir conocimientos para alcanzar los objetivos del equipo.",
     skills: [
       {
-        category: "Frontend",
+        category: "IA & Herramientas",
         technologies:
-          "JavaScript (ES6+), TypeScript, React (Inertia.js), Vue 3, Angular, Flutter, Tailwind CSS",
+          "Uso de IA para optimización de código, Prompt Engineering, Integración de APIs de IA.",
       },
       {
         category: "Backend",
         technologies:
-          "PHP 8.3 (Laravel 12), Node.js (Express), Python (Django), C# (.NET Core), Java (Spring Boot)",
+          "Node.js (Nest.js, Express), PHP 8.3 (Laravel 12, Flight PHP), Python (Django), .NET Core, TypeScript.",
+      },
+      {
+        category: "Frontend",
+        technologies:
+          "Vue 3 (Composition API), React JS, React Native, Angular 18, Vite, Inertia.js, Tailwind CSS.",
       },
       {
         category: "Bases de Datos",
         technologies:
-          "MySQL (Optimización), PostgreSQL, SQL Server, MongoDB, Firebase",
+          "MySQL, PostgreSQL, SQL Server, MongoDB, Firebase.",
       },
       {
-        category: "Cloud & DevOps",
+        category: "DevOps & Nube",
         technologies:
-          "AWS, Google Cloud Platform, VPS (Linux), Docker, Git, CI/CD",
+          "CI/CD, GitHub Actions, GitLab Pipelines, Gitflow, Docker, AWS, S3, Google Cloud, Ubuntu Server.",
       },
       {
-        category: "Arquitecturas",
+        category: "Metodologías",
         technologies:
-          "Principios SOLID, Clean Architecture, Microservicios, API REST, Scrum",
-      },
-      {
-        category: "Hardware & IoT",
-        technologies: "Raspberry Pi, Arduino, Sensores, Impresión 3D",
+          "Metodologías Ágiles (Scrum), Principios SOLID, Clean Architecture, Microservicios, API REST.",
       },
     ],
     experience: [
       {
-        role: "Desarrollador Full Stack",
+        role: "Analista Programador & Desarrollador Fullstack",
+        company: "Independiente (Freelance)",
+        period: "Ene. 2021 - Actualidad",
+        location: "Tarapoto, Perú",
+        description:
+          "Gestiono el ciclo de vida completo del software, desde la toma de requerimientos con el cliente hasta el despliegue en la nube, implementando prácticas de Gitflow y flujos de CI/CD (GitHub Actions / GitLab Pipelines). Lideré el diseño y desarrollo de plataformas como PetGreat y Niba's Postres y Café, integrando WebSockets para tiempo real, y Ark con AWS S3.",
+        stack: "Nest.js, TypeScript, React JS/Native, WebSockets, Python (Django), PHP, CI/CD, Gitflow, GitHub Actions, Docker, AWS S3",
+        media: { type: "image", src: "/Macbook-Air-PetGreat.png" },
+      },
+      {
+        role: "Analista Programador",
         company: "Deyfor E.I.R.L.",
         period: "Sept. 2025 - Dic. 2025",
         location: "Cajamarca, Perú",
         description:
-          "Participé en la transición tecnológica hacia el ERP Deytha v3, un sistema integral para la gestión de servicios en Minería y Energía. Diseñé una arquitectura desacoplada y escalable con Laravel 12 y Vue 3 (Inertia.js), centralizando operaciones críticas de mantenimiento y logística bajo principios SOLID.",
-        stack: "Laravel 12, Vue 3, Inertia.js, PHP 8.3, MySQL, Tailwind CSS",
+          "Colaboré bajo el marco Scrum en el desarrollo del nuevo ERP Deytha v3 para Minería y Energía, aportando en interfaces con Vue 3 y React Native. Participé en la estructuración de un backend escalable con Laravel 12 y PHP 8.3 integrando principios SOLID.",
+        stack: "Laravel 12, PHP 8.3, Vue 3, React Native, Inertia.js, MySQL, Scrum",
         media: {
           type: "image",
           src: "/deyfor.png",
         },
       },
       {
-        role: "Analista Programador & Emprendedor (Freelance)",
-        company: "Independiente / Freelance",
-        period: "Ene. 2025 - Actualidad",
-        location: "Tarapoto, Perú",
-        description:
-          "Lidero el diseño y desarrollo de soluciones digitales a medida para clientes y el ecosistema de startups. Durante este periodo, he gestionado el ciclo de vida completo de productos como PetGreat, Ark y Niba's, enfocándome en arquitecturas robustas y despliegues eficientes en la nube.",
-        stack: "AWS S3, React, Node.js (Express), PHP, MySQL, Google Cloud",
-        media: { type: "image", src: "/Macbook-Air-PetGreat.png" },
-      },
-      {
-        role: "Jefe de Práctica",
+        role: "Jefe de Práctica Universitario",
         company: "Universidad César Vallejo",
         period: "Sept. 2024 - Dic. 2024",
         location: "Tarapoto, Perú",
         description:
-          "Lideré la enseñanza práctica de Programación y Bases de Datos, guiando a más de 40 estudiantes en el desarrollo de proyectos. Coordiné el Fab Lab, facilitando el uso de impresión 3D y microcontroladores (Arduino) para crear prototipos innovadores.",
-        stack: "Impresión 3D, Arduino, Metodologías de enseñanza",
+          "Guié el aprendizaje práctico de más de 40 estudiantes en Programación Orientada a Objetos y Bases de Datos. Brindé soporte técnico en el Fab Lab, resolviendo problemas de integración de hardware (Arduino) y software, operando impresoras 3D, cortadoras y escáneres láser.",
+        stack: "Comunicación efectiva, Mentoría, Arduino, Modelado e Impresión 3D, Corte Láser, Python, C++, MySQL",
         media: {
           type: "video",
           src: "https://www.youtube.com/embed/NBCBPS4URwc?start=281",
         },
       },
       {
-        role: "Desarrollador Full Stack",
+        role: "Desarrollador de Software",
         company: "Tucuna Travel S.A.C.",
         period: "Ene. 2024 - Ago. 2024",
         location: "Sauce, Perú",
         description:
-          "Diseñé y desarrollé una plataforma de reservas turísticas, automatizando el proceso y mejorando la experiencia de usuario en un 60%.",
-        stack: "React, Tailwind CSS, Laravel (PHP), MySQL",
+          "Desarrollé y desplegué una plataforma web integral de reservas bajo plazos ajustados mediante sprints ágiles, manteniendo siempre la calidad del código. Automaticé el motor de transacciones, reduciendo errores manuales y mejorando la satisfacción del cliente.",
+        stack: "React, Laravel, JavaScript, PHP, MySQL, Scrum, Resolución de problemas",
         media: { type: "image", src: "/tucunatravel.jpg" },
       },
       {
@@ -401,8 +402,8 @@ import { r as d, j as e } from "./index-BCi4c7TJ.js";
         period: "Jun. 2023 - Dic. 2023",
         location: "Lima, Perú",
         description:
-          "Desarrollé un sistema de gestión de inventario para un cliente del sector metalúrgico, optimizando sus procesos logísticos.",
-        stack: "Python, Django, PostgreSQL, AWS",
+          "Diseñé e implementé un sistema corporativo de gestión de inventarios metalúrgicos empleando Python, Django y PostgreSQL bajo metodologías ágiles. Automaticé la generación de reportes de despacho alojados en AWS.",
+        stack: "Python, Django, PostgreSQL, AWS, Scrum, Empatía con el usuario",
         media: { type: "image", src: "/Macbook-Air-metalprotec.png" },
       },
       {
@@ -411,39 +412,39 @@ import { r as d, j as e } from "./index-BCi4c7TJ.js";
         period: "Jun. 2022 - May. 2023",
         location: "Trujillo, Perú",
         description:
-          "Participé en el desarrollo de un sistema de factoring que dio servicio a más de 1,600 clientes, mejorando la eficiencia operativa en un 30%.",
+          "Participé mediante Scrum en la construcción de microservicios financieros con .NET Core (C#) y desarrollé el frontend con Angular 18, atendiendo a más de 1,600 clientes. Optimicé consultas en SQL Server y MySQL, mejorando la eficiencia en un 30%.",
         stack:
-          "Angular (TypeScript), C# (.NET Core/Framework), MySQL, SQL Server",
+          "Angular 18, TypeScript, .NET Core, C#, SQL Server, MySQL, Scrum",
         media: { type: "image", src: "/neoteck.jpg" },
       },
       {
-        role: "Programador Full Stack & Mobile",
+        role: "Analista Programador Mobile & Web",
         company: "Citamed S.A.C.",
         period: "Dic. 2021 - May. 2022",
         location: "Tarapoto, Perú",
         description:
-          "Lancé con mi equipo  una aplicación móvil multiplataforma y un panel web para la gestión de citas médicas.",
+          "Apliqué Flutter (Dart) para desarrollar el frontend de una app de telemedicina conectada a un panel en Angular y PHP. Integré la pasarela Culqi y WebSockets para videollamadas fluidas en tiempo real.",
         stack:
-          "Flutter (Dart), Angular (TypeScript), PHP (Codelgniter), MySQL, Google Cloud",
+          "Flutter, Dart, Angular, WebSockets, Culqi, PHP (CodeIgniter), Google Cloud, Scrum",
         media: { type: "image", src: "/citamed.jpg" },
       },
       {
-        role: "Programador (Prácticas Pre-profesionales)",
+        role: "Programador Junior / Analista de Sistemas",
         company: "Arq. Construcción & Serv. Generales S.A.C.",
         period: "Abr. 2021 - Nov. 2021",
         location: "Yurimaguas, Perú",
         description:
-          "Digitalicé el proceso de gestión de adquisiciones y gastos mediante el desarrollo de un sistema web que generaba reportes en PDF y Excel.",
+          "Centralicé los gastos operativos de obra mediante un sistema web en PHP, facilitando la transparencia de la información para la gerencia.",
         stack: "PHP, Bootstrap, MySQL",
         media: { type: "image", src: "/arqdicosg.png" },
       },
       {
-        role: "Desarrollador de Sistemas Web",
+        role: "Programador Junior / Analista de Sistemas",
         company: "Acupuntura China (Acucentro)",
         period: "Jul. 2019 - Dic. 2019",
         location: "Tarapoto, Perú",
         description:
-          "Desarrollé el primer sistema web de la clínica para el registro de pacientes e historias clínicas. Automaticé el envío de recordatorios de citas vía WhatsApp, reduciendo la tasa de inasistencia en un 25%.",
+          "Diseñé un sistema de agenda que redujo la inasistencia en un 25% gracias a la integración con la API de WhatsApp, enfocándome en la experiencia del paciente clínico.",
         stack: "PHP, Bootstrap, MySQL, WhatsApp API",
         media: { type: "image", src: "/acucentro.jpg" },
       },

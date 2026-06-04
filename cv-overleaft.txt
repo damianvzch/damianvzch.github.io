@@ -1,0 +1,188 @@
+\documentclass[10pt, a4paper]{article}
+
+\usepackage[a4paper, left=1.6cm, right=1.6cm, top=1.5cm, bottom=1.5cm]{geometry}
+\usepackage{fontspec}
+\usepackage[spanish]{babel}
+
+\babelprovide[import]{english}
+
+% Establecemos Noto Sans como la tipografía principal (Limpiado de opciones problemáticas)
+\babelfont{rm}{Noto Sans}
+
+\usepackage{xcolor} 
+\usepackage{hyperref} 
+\usepackage{tabularx} 
+\usepackage{booktabs}
+\usepackage{titlesec} 
+\usepackage{enumitem}
+
+\pagestyle{empty} 
+
+\definecolor{primarycolor}{HTML}{005f73} 
+\definecolor{secondarycolor}{HTML}{2E3E4E} 
+\definecolor{linkcolor}{HTML}{0077B6} 
+\definecolor{placeholdercolor}{HTML}{B0B0B0} 
+
+\hypersetup{
+    colorlinks=true,
+    urlcolor=linkcolor,
+    linkcolor=linkcolor,
+}
+
+\titleformat{\section}
+  {\color{primarycolor}\scshape\Large\raggedright}
+  {}
+  {0em}
+  {}[\color{primarycolor}\titlerule]
+\titlespacing*{\section}{0pt}{1em}{0.6em}
+
+\setlist[itemize]{label=-, leftmargin=1.5em, labelsep=0.5em, itemsep=0.15em, topsep=0.1em, parsep=0.1em}
+
+\newcommand{\experienceentry}[4]{
+    \textbf{\Large #1} \hfill \textcolor{primarycolor}{\textbf{#2}} \\
+    \textit{\large #3} \hfill \textit{\large #4} \\
+    \vspace{0.2em}
+}
+
+\newcommand{\skillitem}[2]{\textbf{#1:} #2}
+
+\begin{document}
+
+\begin{minipage}[c]{0.22\textwidth}
+    \vspace{0pt}
+    \fbox{
+        \parbox[c][3.5cm][c]{\dimexpr\linewidth-2\fboxsep-2\fboxrule\relax}{
+            \centering
+            \textcolor{placeholdercolor}{\small Espacio para foto}
+        }
+    }
+\end{minipage}
+\hfill
+\begin{minipage}[c]{0.75\textwidth}
+    \raggedleft 
+    \begin{tabular}{r}
+         {\Huge\scshape\color{primarycolor} Miguel Ángel Damián} \\
+         {\Huge\scshape\color{primarycolor} Vásquez Chujandama}
+    \end{tabular} \\
+    \vspace{0.4em}
+    {\Large\color{secondarycolor} Ingeniero de Sistemas | Desarrollador de Software} \\
+    \vspace{0.8em}
+    \href{https://damianvzch.github.io}{damianvzch.github.io} \quad | \quad \href{mailto:damianvzch@gmail.com}{damianvzch@gmail.com} \\
+    \vspace{0.4em}
+    \href{https://wa.me/51955205699}{+51 955205699} \quad | \quad Tarapoto, San Martín
+\end{minipage}
+\vspace{1.5em}
+
+\section*{Resumen Profesional}
+{\raggedright
+Ingeniero de Sistemas y desarrollador autodidacta con \textbf{más de 5 años de experiencia} creando soluciones de software de extremo a extremo. Disfruto enfrentando problemas complejos y transformándolos en sistemas escalables bajo principios \textbf{SOLID} y arquitecturas limpias. Poseo un fuerte enfoque en la empatía hacia el usuario final, la comunicación transparente y el trabajo en equipo. Con sólida experiencia integrando tecnologías modernas y automatizando flujos \textbf{CI/CD}, me adapto rápidamente a las nuevas metodologías, \textbf{integrando herramientas de Inteligencia Artificial} para optimizar el ciclo de desarrollo y resolución de problemas. Busco aportar valor a los proyectos manteniendo una actitud colaborativa y siempre dispuesto a compartir conocimientos para alcanzar los objetivos del equipo.
+\par}
+
+\section*{Habilidades Clave}
+\begin{itemize}
+    \item \skillitem{IA \& Herramientas}{Uso de IA para optimización de código, Prompt Engineering, Integración de APIs de IA.}
+    \item \skillitem{Backend}{Node.js (Nest.js, Express), PHP 8.3 (Laravel 12, Flight PHP), Python (Django), .NET Core, TypeScript.}
+    \item \skillitem{Frontend}{Vue 3 (Composition API), React JS, React Native, Angular 18, Vite, Inertia.js, Tailwind CSS.}
+    \item \skillitem{Bases de Datos}{MySQL, PostgreSQL, SQL Server, MongoDB, Firebase.}
+    \item \skillitem{DevOps \& Nube}{CI/CD, GitHub Actions, GitLab Pipelines, Gitflow, Docker, AWS, S3, Google Cloud, Ubuntu Server.}
+    \item \skillitem{Metodologías}{Metodologías Ágiles (Scrum), Principios SOLID, Clean Architecture, Microservicios, API REST.}
+\end{itemize}
+
+\section*{Experiencia Profesional}
+
+\experienceentry{Analista Programador \& Desarrollador Fullstack}{Ene. 2021 -- Actualidad}{Independiente (Freelance)}{Tarapoto, Perú}
+\begin{itemize}
+    \item Gestiono el ciclo de vida completo del software, desde la toma de requerimientos con el cliente hasta el despliegue en la nube, implementando prácticas de \textbf{Gitflow} y flujos de \textbf{CI/CD} (GitHub Actions / GitLab Pipelines) para asegurar entregas continuas y estables.
+    \item \textbf{PetGreat:} Lideré el diseño y desarrollo de una plataforma veterinaria integral. Se priorizó una experiencia de usuario fluida conectando un frontend en React (Vite) con un backend en PHP (Flight PHP), integrando \textbf{WebSockets para mensajería y notificaciones en tiempo real}.
+    \item \textbf{Niba's Postres y Café:} Desarrollé el sistema administrativo completo en la nube, integrando \textbf{WebSockets para notificaciones instantáneas}. Actualmente finalizando la integración de una API de facturación electrónica utilizando \textbf{Nest.js (TypeScript)}.
+    \item \textbf{Ark (Asesorías 3D):} Plataforma educativa para arquitectura con panel administrativo y landing page interactiva. Facilitó la gestión escalable de recursos y estudiantes mediante React JS, Laravel y almacenamiento en S3 (AWS).
+    \item \textbf{Stack:} Nest.js, TypeScript, React JS/Native, WebSockets, Python (Django), PHP, CI/CD, Gitflow, GitHub Actions, Docker, AWS S3.
+\end{itemize}
+
+\vspace{0.8em}
+
+\experienceentry{Analista Programador}{Sept. 2025 -- Dic. 2025}{Deyfor E.I.R.L.}{Cajamarca, Perú}
+\begin{itemize}
+    \item Colaboré estrechamente bajo el marco de trabajo \textbf{Scrum} con un equipo multidisciplinario en el desarrollo del nuevo ERP \textbf{Deytha v3} para los sectores de Minería y Energía, aportando en la maquetación de interfaces intuitivas con Vue 3 y React Native.
+    \item Participé en la estructuración de un backend escalable utilizando Laravel 12 y PHP 8.3, integrando principios SOLID de forma proactiva para facilitar el mantenimiento a futuro por parte del equipo.
+    \item \textbf{Stack:} Laravel 12, PHP 8.3, Vue 3, React Native, Inertia.js, MySQL, Scrum.
+\end{itemize}
+
+% Salto forzado para iniciar la Página 2 como solicitaste
+\newpage
+
+\experienceentry{Jefe de Práctica Universitario}{Sept. 2024 -- Dic. 2024}{Universidad César Vallejo}{Tarapoto, Perú}
+\begin{itemize}
+    \item Guié el aprendizaje práctico de más de 40 estudiantes en Programación Orientada a Objetos y Bases de Datos, fomentando un ambiente de colaboración.
+    \item Brindé soporte técnico en el Fab Lab, resolviendo problemas de integración de hardware (Arduino) y software para estudiantes de diferentes \textbf{niveles y carreras}, además de operar y asesorar en el uso de \textbf{impresoras 3D (Creality, Bambu Lab), modelado 3D, cortadoras y escáneres láser}.
+    \item \textbf{Stack:} Comunicación efectiva, Mentoría, Arduino, Modelado e Impresión 3D, Corte Láser, Python, C++, MySQL.
+\end{itemize}
+
+\vspace{0.8em}
+
+\experienceentry{Desarrollador de Software}{Ene. 2024 -- Ago. 2024}{Tucuna Travel S.A.C.}{Sauce, Perú}
+\begin{itemize}
+    \item Desarrollé y desplegué una plataforma web integral de reservas bajo plazos ajustados mediante \textbf{sprints ágiles}, manteniendo siempre la calidad del código y la arquitectura (React + Laravel).
+    \item Automaticé el motor de transacciones, lo que redujo drásticamente los errores manuales del equipo operativo y mejoró la satisfacción del cliente final.
+    \item \textbf{Stack:} React, Laravel, JavaScript, PHP, MySQL, Scrum, Resolución de problemas.
+\end{itemize}
+
+\vspace{0.8em}
+
+\experienceentry{Analista Programador}{Jun. 2023 -- Dic. 2023}{Revelio JL S.A.C.}{Lima, Perú}
+\begin{itemize}
+    \item Levanté los requerimientos del área de almacén para diseñar e implementar un sistema corporativo de gestión de inventarios metalúrgicos empleando Python, Django y PostgreSQL bajo metodologías ágiles.
+    \item Automaticé la generación de reportes de despacho alojados en AWS, aportando trazabilidad y exactitud en los cierres de stock diarios.
+    \item \textbf{Stack:} Python, Django, PostgreSQL, AWS, Scrum, Empatía con el usuario.
+\end{itemize}
+
+\vspace{0.8em}
+
+\experienceentry{Analista Programador}{Jun. 2022 -- May. 2023}{Neoteck Solutions E.I.R.L.}{Trujillo, Perú}
+\begin{itemize}
+    \item Participé mediante ceremonias ágiles (\textbf{Scrum}) en la construcción de microservicios financieros seguros con .NET Core (C\#) y desarrollé la interfaz en el frontend utilizando \textbf{Angular 18 con TypeScript}, atendiendo a más de 1,600 clientes.
+    \item Trabajé junto a los administradores de bases de datos para optimizar consultas en SQL Server y MySQL, mejorando la eficiencia operativa en un 30\%.
+    \item \textbf{Stack:} Angular 18, TypeScript, .NET Core, C\#, SQL Server, MySQL, Scrum.
+\end{itemize}
+
+\vspace{0.8em}
+
+\experienceentry{Analista Programador Mobile \& Web}{Dic. 2021 -- May. 2022}{Citamed S.A.C.}{Tarapoto, Perú}
+\begin{itemize}
+    \item Aprendí y apliqué Flutter (Dart) para desarrollar el frontend de una app de telemedicina conectada a un panel administrativo en Angular y PHP.
+    \item Integré métodos de pago utilizando la pasarela \textbf{Culqi} e implementé \textbf{WebSockets} para garantizar videollamadas fluidas en tiempo real, adaptándome a dinámicas de \textbf{Scrum}.
+    \item \textbf{Stack:} Flutter, Dart, Angular, WebSockets, Culqi, PHP (CodeIgniter), Google Cloud, Scrum.
+\end{itemize}
+
+\vspace{0.8em}
+
+\experienceentry{Programador Junior / Analista de Sistemas}{Jul. 2019 -- Nov. 2021}{Diversas Empresas}{Perú}
+\begin{itemize}
+    \item \textbf{Arq. Construcción (2021):} Centralicé los gastos operativos de obra mediante un sistema web en PHP, facilitando la transparencia de la información para la gerencia.
+    \item \textbf{Acupuntura China (2019):} Me enfoqué en la experiencia del paciente clínico diseñando un sistema de agenda que redujo la inasistencia en un 25\% gracias a la integración con la API de WhatsApp.
+\end{itemize}
+
+% Salto forzado para iniciar la Página 3 como solicitaste
+\newpage
+
+\section*{Educación}
+\experienceentry{Título Profesional de Ingeniero de Sistemas}{2017 -- 2021}{Universidad César Vallejo}{Perú}
+\experienceentry{Movilidad Académica Internacional}{2020}{Universidad Católica de Oriente}{Colombia}
+
+\section*{Proyectos Destacados}
+\experienceentry{Sistema Inteligente para Triaje Hospitalario}{Expositor Internacional}{Hospital II-E Juanjuí}{}
+\begin{itemize}
+    \item Diseñé la arquitectura y el código de un sistema automatizado (Python y Arduino) para la medición algorítmica de signos vitales, reduciendo tiempos de espera en 78\%.
+\end{itemize}
+
+\section*{Certificaciones e Idiomas}
+\renewcommand{\arraystretch}{1.5}
+\begin{tabularx}{\textwidth}{l X}
+    \textbf{Certificaciones} & $\bullet$ CCNA: Redes empresariales, Seguridad y Automatización -- Cisco \\
+    & $\bullet$ Cybersecurity Essentials -- Cisco \\
+    \addlinespace[1em]
+    \textbf{Idiomas} & \textbf{Español:} Nativo \\
+    & \textbf{Inglés:} B1 Intermedio (En constante aprendizaje profesional) \\
+\end{tabularx}
+
+\end{document}
